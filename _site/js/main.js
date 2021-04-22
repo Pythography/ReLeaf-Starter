@@ -1,7 +1,6 @@
 // You can include your own javascript here
 // alert("hello, your main.js file was added properly.");
 console.log("Logging from main.js, it was loaded.");
- "https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"
 
 $(document).ready(function(){
   // Add smooth scrolling to all links
