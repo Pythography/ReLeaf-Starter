@@ -187,4 +187,16 @@ Video courtesy of
               </div>  
           </footer>
       </div>
+<div>
+      <h2>Post </h2>
+      <ul>
+      {%- for post in collections.post -%}
+      {%- endfor -%}
+      </ul>
+      <h2>People</h2>
+      <ul>
+      {%- for people in collections.people -%}
+      {%- end for -%}
+      </ul>
+      </div>
   </body>
