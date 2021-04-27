@@ -202,7 +202,7 @@ Video courtesy of
         <ul>
   {%- for people in collections.people -%}
   <li><a href="{{ person.url }}">{{ person.data.title }}</a>
-  <p>{{ people.data.summary}}</p>
+  <p>{{ people.data.age}}</p>
   </li>
    {%- endfor -%}
       </ul>
