@@ -190,13 +190,21 @@ Video courtesy of
 <div>
       <h2>Post </h2>
       <ul>
-      {%- for post in collections.post -%}
-      {%- endfor -%}
+  {%- for post in collections.post -%}
+  <li><a href="{{ post.url }}">{{ post.data.title }}</a>
+  <p>{{ post.data.summary}}</p>
+  </li>
+   {%- endfor -%}
       </ul>
+      </div>
+      <div>
       <h2>People</h2>
-      <ul>
-      {%- for people in collections.people -%}
-      {%- end for -%}
+        <ul>
+  {%- for people in collections.people -%}
+  <li><a href="{{ person.url }}">{{ person.data.title }}</a>
+  <p>{{ post.data.summary}}</p>
+  </li>
+   {%- endfor -%}
       </ul>
       </div>
   </body>

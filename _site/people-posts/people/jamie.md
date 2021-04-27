@@ -9,7 +9,7 @@ tags:
     - nonbinary
     - NYC
     - BMCC
-    - post
+    - person
 ---
 
 # {{fullname}}
