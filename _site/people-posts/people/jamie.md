@@ -4,10 +4,12 @@ age: 19
 pronouns: they/them
 location: NYC
 layout: base
+title: Jamie's Personal Page
 tags:
     - nonbinary
     - NYC
     - BMCC
+    - post
 ---
 
 # {{fullname}}
