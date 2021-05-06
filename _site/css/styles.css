@@ -1,488 +1,538 @@
-/* You can add your CUSTOM CSS HERE */
-
 html{
-   
-    max-width: 90%;
-    margin: auto;    
-    }
+  max-width: 90%;
+  margin: auto;    
+  }
+  @media(max-width:768px){
+      html{
+      max-width: 100%;
+      }
+  }
+  
+  #wrapper{
+      margin: auto;
+      padding:1em;
+  }
+  
+  .site-header {
+  font-family: 'Lato', sans-serif;
+  }
+  
+  .site-header h1{
+      margin:1rem;
+      color: #0f3D3D;
+  }
+  
+  .site-header a{    
+  text-decoration: none;    
+      font-weight: 900;
+  }
+  p,h1,h2,h3,h4{
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  margin-bottom: 1em;
+  }
+  h1,h2,h3,h4{
+  font-weight:600;    
+  }
+  
+  .site-header h1{
+  font-weight: 650;
+  font-size: 200%;    
+  }
+  .site-header h1:hover{
+  color: #93BD89;
+  }
+  
+  .site-header {
+      display:flex;
+      align-items: center;
+      justify-content: space-between;
+  }
+  
+  .menubar{   
+  display: flex;
+  flex-wrap:wrap; 
+  list-style: none;
+  padding:0;
+  justify-content: space-between;    
+  }
+  
+  @media (max-width:768px){
+      .menubar{
+      flex-direction: column;
+      padding-right:15px;     
+      }
+  }
+  
+  .menu a {
+  color:#0F3D3D;
+  ;
+  }
+  .menu a:hover{
+  color:#93BD89;
+  }
+  .main h1{
+  text-align: center;
+  }
+  
+  /* default style for the boxes. suggestion, use border OR background-color not both (or something else if you like.) */
+  .box{
+  /*   border: 2px solid grey; */
+    padding: 20px;
+    background-color: #fff;
+  }
+  .box h1{
+  font-weight: 650;
+  font-size: 300%;    
+  }
+  .one img{
+  width: 600px
+  }
+  
+  @supports (grid-area: auto) {
     
-    #wrapper{
-        margin: auto;
-        padding:1em;
-    }
-    
-    .site-header {
-    font-family: 'Lato', sans-serif;
-    }
-    
-    .site-header h1{
-        margin:1rem;
-        color: #0f3D3D;
-    }
-    
-    .site-header a{    
-    text-decoration: none;    
-        font-weight: 900;
-    }
-    p,h1,h2,h3,h4{
-    font-family: 'Lato', sans-serif;
-    font-weight: 300;
-    margin-bottom: 1em;
-    }
-    h1,h2,h3,h4{
-    font-weight:600;    
-    }
-    
-    .site-header h1{
-    font-weight: 650;
-    font-size: 200%;    
-    }
-    .site-header h1:hover{
-    color: #93BD89;
-    }
-    
-    .site-header {
-        display:flex;
-        align-items: center;
-        justify-content: space-between;
-    }
-    
-    .menubar{   
-    display: flex;
-    flex-wrap:wrap; 
-    list-style: none;
-    padding:0;
-    justify-content: space-between;    
-    }
-    
-    @media (max-width:768px){
-        .menubar{
-        flex-direction: column;
-        padding-right:15px;     
-        }
-    }
-    
-    .menu a {
-    color:#0F3D3D;
-    ;
-    }
-    .menu a:hover{
-    color:#93BD89;
-    }
-    .main h1{
-    text-align: center;
-    }
-    
-    /* default style for the boxes. suggestion, use border OR background-color not both (or something else if you like.) */
-    .box{
-    /*   border: 2px solid grey; */
-      padding: 20px;
-      background-color: #fff;
-    }
-    .box h1{
-    font-weight: 650;
-    font-size: 300%;    
-    }
-    
-    @supports (grid-area: auto) {
-      
-      .boxes{
-        display: grid;
-       grid-template-columns: 1fr 1fr;
-        grid-gap: 10px;
-    }
-        @media (max-width:768px){
-      .boxes{
+    .boxes{
+      display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+      grid-gap: 10px;
+  }
+      .two{
+      grid-column: 2/ span 2;
+      }
+      @media (max-width:768px){
+    .boxes{
+  display: grid;
+     grid-template-columns: 1fr;
+      grid-gap: 10px;
+  }
+          .two, .two p{
+          grid-column: auto;
+          width:400px;    
+          }        
+  .one img{
+  width: 100%;
+          }
+      }
+  }
+  .Event-boxes {
     display: grid;
-       grid-template-columns: 1fr;
-        grid-gap: 10px;
-    }
-    
-    }
-    }
-    
-    .hero-button{  
-      background-color: #379683;
-      border-radius: 7px;
-      border: none;
-      color: white;    
-      padding: 14px 20px;
-      text-align: center;
-      text-decoration: none;
-      font-size: 16px;
-      margin: 1% 0 2% 3%;    
-    }
-    
-    .hero-button:hover {
-    background-color: #3CB371;
-    color:black;
-    }
-    ul li{
-    list-style-type: none;
-    }
-    
-    
-    
-    @media (max-width:768px){
-    .About-me p, .About-me h1{
-    margin: auto; 
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
+    grid-gap: 20px;
+    padding: 20px;    
+  }
+  .Event-boxes img{
+      width:250px;
+  }
+  
+  .e-image {
+  grid-column: 4/span 2 ;
+  }
+  .e-image img{
+  width: 500px;
+  height: 350px;    
+  }
+  .e-info{
+    grid-column: 2/ span 2;
+  }
+  .e-f1{
+  grid-column: 2/span 1;   
+  }
+  .e-f2{
+  grid-column: 3/span 1;  
+  }
+  @media(max-width:768px){
+      .Event-boxes{
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr;
+      }
+      .e-image{
+  display: none;
+  }
+  /*
+      .e-f1, .e-f2{
+  grid-column: 1;
+  text-align: center;        
+  }
+  */
+      .e-f1 , .e-f2{
+      width: 200px;
+      }
+      .e-f1 img, .e-f2 img{
+      display: none;
+      }
+     
+  }
+  .hero-button{  
+    background-color: #379683;
+    border-radius: 7px;
+    border: none;
+    color: white;    
+    padding: 14px 20px;
     text-align: center;
-    width:100%;
-    }
-    }
-    .MS-container{
-        margin-left: auto;
-        margin-right: auto;
-        width:90%;
-    }
-     .MS-heading{
-            text-align: center;
-            margin-bottom: 40px;    
-            }
-     .MSboxes{
-        padding:2%; 
-        display: grid;
-       grid-template-columns: 1fr 1fr 1fr;
-       margin-left: 12%;
-    
-    }
-    @media (max-width:768px){
-     .MSboxes{
-        padding:2%; 
-        display: grid;
-       grid-template-columns: 1fr;
-        grid-gap: 10px;
-    }
-    }
-         .container{
-            width:90%;
-            margin:50px auto;    
-            }
-            
-            .heading{
-            text-align: center;
-            margin-bottom: 40px;    
-            }
-            
-            .row{
-            display: flex;
-            flex-direction: row;
-            justify-content: space-around;
-                flex-flow: wrap;
-            }
-            .card{
-            width:320px;
-            background:#fff;
-            border-radius: 20px;    
-            border: 1px solid #ccc;
-            margin-bottom:50px;
-            transition: 0.3s;    
-            }
-            
-            .card-header{
-            text-align: center;
-            border-radius:20px 20px 0px 0px ;  
-            padding:5px 5px;
-            background-color:#fff;
-            color:#fff;    
-            }
-            
-            .card-body{
-            padding:30px 20px;
-            text-align:center;
-            font-size:18px;    
-            }
-    .card-img{
-    border-radius: 20px 20px 0 0;
-    }
-            
-            .card-body .btn{
-            display: block;
-            border-radius:10px;     
-            color:#5B9E8E;
-            text-align:center;
-            background-color: #fff;   
-            margin-top:30px;
-            text-decoration: none;
-            padding:10px 5px;    
-            }
-            
-            .card:hover{
-            transform:scale(1.05);
-            box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);    
-            }
-            
+    text-decoration: none;
+    font-size: 16px;
+    margin: 1% 0 2% 3%;    
+  }
+  
+  .hero-button:hover {
+  background-color: #3CB371;
+  color:black;
+  }
+  ul li{
+  list-style-type: none;
+  }
+  
+  
+  
+  @media (max-width:768px){
+  .About-me p, .About-me h1{
+  margin: auto; 
+  text-align: center;
+  width:100%;
+  }
+  }
+  .MS-container{
+      margin-left: auto;
+      margin-right: auto;
+      width:90%;
+  }
+   .MS-heading{
+          text-align: center;
+          margin-bottom: 40px;    
+          }
+   .MSboxes{
+      padding:0; 
+      display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+  
+  }
+  @media (max-width:768px){
+   .MSboxes{
+      padding:2%; 
+      display: grid;
+     grid-template-columns: 1fr;
+      grid-gap: 10px;
+  }
+  }
+       .container{
+          width:90%;
+          margin:50px auto;    
+          }
+          
+          .heading{
+          text-align: center;
+          margin-bottom: 40px;    
+          }
+          
+          .row{
+          display: flex;
+          flex-direction: row;
+          justify-content: space-around;
+              flex-flow: wrap;
+          }
+          .card{
+          width:320px;
+          background:#fff;
+          border-radius: 20px;    
+          border: 1px solid #ccc;
+          margin-bottom:50px;
+          transition: 0.3s;    
+          }
+          
+          .card-header{
+          text-align: center;
+          border-radius:20px 20px 0px 0px ;  
+          padding:5px 5px;
+          background-color:#fff;
+          color:#fff;    
+          }
+          
+          .card-body{
+          padding:30px 20px;
+          text-align:center;
+          font-size:18px;    
+          }
+  .card-img{
+  border-radius: 20px 20px 0 0;
+  }
+          
+          .card-body .btn{
+          display: block;
+          border-radius:10px;     
+          color:#5B9E8E;
+          text-align:center;
+          background-color: #fff;   
+          margin-top:30px;
+          text-decoration: none;
+          padding:10px 5px;    
+          }
+          
+          .card:hover{
+          transform:scale(1.05);
+          box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);    
+          }
+          
+          @media screen and (max-width:768px){
+              .card{
+              width:100%;
+              }
+          }
             @media screen and (max-width:768px){
-                .card{
+                .container{
                 width:100%;
                 }
-            }
-              @media screen and (max-width:768px){
-                  .container{
-                  width:100%;
-                  }
-                  .heading{
-                  padding:20px;
-                    font-size:20px;  
-                  }
-                  .card{
-                width:80%;
+                .heading{
+                padding:20px;
+                  font-size:20px;  
                 }
-            }
-    #Contacts{
-    background-color: #9BCAC1;
-    }
-    .Contact{
-        margin-left: auto;
-        margin-right: auto;
-        width: 100%;
-        max-width: 550px;
-        padding: 20px;
-        border-radius: 5px;
-        box-shadow: 0 0 10px rgba(0,0,0,0.3);
-        background-color: #379683;
-    }
-    .Contact .title h1{
-    color:#000;
-    text-align: center;
-    margin-bottom: 25px;     
-    }
+                .card{
+              width:80%;
+              }
+          }
+  
+  .btn1 {
+      background:#3B5568;
+      text-align: center;
+      padding: 15px;
+      border-radius: 5px;
+      color: #fff;
+      cursor: pointer;
+      text-transform: uppercase;
+  }
+  @media (min-width:768px){    
+      .menu li{
+      display:flex;
+          flex-wrap: wrap;
+      margin-right:2em;    
+      }
+       .hero-banner p{
+          width: 100%;
+          }
+      
+  }
+  
+  @media screen and (max-width: 768px){
+      .Contact{
+          width: 90%;
+      }
     .contact-form{
-    display: flex;
-    }
-    
-    .input-fields{
-    display: flex;
-    flex-direction: column;
-    margin-right: 4%;     
-    }
-    
-    .input-fields, .msg{
-    width:48%;
-    }
-    
-    .input-fields .input, .msg textarea{
-    margin: 10px 0;
-        background: transparent;
-        border: 0px;
-        border-bottom: 2px solid #000;
-        padding: 10px;
-        width: 95%;
+      flex-direction: column;
     }
     .msg textarea{
-    height: 212px; 
+      height: 80px;
     }
-    
-    .btn1 {
-        background:#3B5568;
-        text-align: center;
-        padding: 15px;
-        border-radius: 5px;
-        color: #fff;
-        cursor: pointer;
-        text-transform: uppercase;
+    .input-fields,
+    .msg{
+      width: 100%;
     }
-    @media (min-width:768px){    
-        .menu li{
-        display:flex;
-            flex-wrap: wrap;
-        margin-right:2em;    
+       
+  }
+  
+  #P-Works h1{
+  text-align: center;
+  margin-bottom: 10px;    
+  }
+    .container2 {
+        justify-content: center;
+          display: flex;
+          align-items: center;
+        margin-bottom: 20px;
         }
-         .hero-banner p{
-            width: 100%;
-            }
-        
-    }
-    
-    @media screen and (max-width: 768px){
-        .Contact{
-            width: 90%;
+      .container2:hover{
+          border-radius: 10px;
+          background-color:#98DACB ;
+          transform:scale(1.01);
+          box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);    
+          }
+        .container2 img { 
+          border-radius:20px;   
+          max-width: 450px
         }
-      .contact-form{
-        flex-direction: column;
+        .P-images {
+          flex-basis: 0;
+          order: 0;
+        }
+      .P-images2 {
+          flex-basis: 0;
+          order: 2;
+        }
+      .text{
+          margin:1%;
+          width:50%;
+      }    
+        .text a{  
+          color: #000;
+          padding-left: 20px;
+            text-decoration: none;
+        }
+  
+  @media (max-width: 768px){
+      
+      .container2{
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
       }
-      .msg textarea{
-        height: 80px;
+      .container2:hover{
+          border-radius: 20px;
       }
-      .input-fields,
-      .msg{
-        width: 100%;
-      }
-         
-    }
-    
-    #P-Works h1{
-    text-align: center;
-    margin-bottom: 10px;    
-    }
-      .container2 {
-          justify-content: center;
-            display: flex;
-            align-items: center;
-          margin-bottom: 20px;
-          }
-        .container2:hover{
-            border-radius: 10px;
-            background-color:#98DACB ;
-            transform:scale(1.01);
-            box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);    
-            }
-          .container2 img { 
-            border-radius:20px;   
-            max-width: 450px
-          }
-          .P-images {
-            flex-basis: 0;
-            order: 0;
-          }
-        .P-images2 {
-            flex-basis: 0;
-            order: 2;
-          }
-        .text{
-            margin:1%;
-            width:50%;
-        }    
-          .text a{  
-            color: #000;
-            padding-left: 20px;
-              text-decoration: none;
-          }
-    
-    @media (max-width: 768px){
-        
-        .container2{
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        }
-        .container2:hover{
-            border-radius: 20px;
-        }
-            
-        .text{
-            margin-top: -30px;
-            color: #f4f4f4;
-            width:90%;
-        }
-            .P-images2 {
-            flex-basis: 0;
-            order: 0;
-          }
-        #P-Works{     
-    margin-left: 0;
-    }
-        
-         .container2 img{
-        width: 100%;
-        border-radius:5px ;     
-        }
-         .hero-button{
-        margin-left: 35%;
-        }
           
-    }
-    
-    .button {
-      border-radius: 4px;
-      background-color: #3B5568;
-      border: none;
-      color: #ccc;
-      text-align: center;
-      font-size: 28px;
-      padding: 10px;
-      width: 90%;
-      transition: all 0.5s;
-      cursor: pointer;
-      margin: 5px;
-    }
-    
-    .button span {
-      cursor: pointer;
-      display: inline-block;
-      position: relative;
-      transition: 0.5s;
-    }
-    
-    .button span:after {
-      content: '\00bb';
-      position: absolute;
-      opacity: 0;
-      top: 0;
-      right: -20px;
-      transition: 0.5s;
-    }
-    
-    .button:hover span {
-      padding-right: 25px;
-    }
-    
-    .button:hover span:after {
-      opacity: 1;
-      right: 0;
-    }
-    
-        .Videos p{
-        text-align: center;
+      .text{
+          margin-top: -30px;
+          color: #f4f4f4;
+          width:90%;
+      }
+          .P-images2 {
+          flex-basis: 0;
+          order: 0;
         }
-        .Video a{
-            text-decoration: none;
-            color: #379683;
-        }
-     .Video a:hover{
-            text-decoration: none;
-            color: #98DACB;
-        }
-    .site-footer {
-    font-family: 'Lato', sans-serif;
-    }
-    
-    .site-footer h1{
-        margin:1rem;
-        color: #0f3D3D;
-    }
-    
-    .site-footer a{    
-    text-decoration: none;    
-        font-weight: 900;
-    }
-    
-    .site-footer h1{
-    font-weight: 650;
-    font-size: 200%;    
-    }
-    .site-footer h1:hover{
-    color: #93BD89;
-    }
-    
-    .site-footer {
-        display:flex;
-        align-items: center;
-        justify-content: space-around;
-    }
-    
-    .f-menubar{   
-    display: flex;
-    flex-wrap:wrap; 
-    list-style: none;
-    padding:0;
-    justify-content: space-around;    
-    }
-    
-    @media (max-width:768px){
-        .f-menubar{
-        flex-direction: column;
-        padding-right:15px;     
-        }
-    }
-    .f-menubar li{
+      #P-Works{     
+  margin-left: 0;
+  }
+      
+       .container2 img{
+      width: 100%;
+      border-radius:5px ;     
+      }
+       .hero-button{
+      margin-left: 35%;
+      }
+        
+  }
+  
+  .button {
+    border-radius: 4px;
+    background-color: #3B5568;
+    border: none;
+    color: #ccc;
+    text-align: center;
+    font-size: 28px;
     padding: 10px;
-    }
+    width: 90%;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  
+  .box2{
+    padding: 20px;
+    background-color: #fff;
+  }
+  .box2 h2{
+  font-weight: 750;
+  font-size: 250%;    
+  }
+  
+  @supports (grid-area: auto) {
     
-    .f-menu a {
-    color:#0F3D3D;
-    ;
-    }
-    .f-menu a:hover{
-    color:#93BD89;
-    }
+    .boxes2{
+      display: grid;
+     grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-gap: 10px;
+  }
+      .g-image{
+      grid-column: 2 ;
+      }
+      .g-info {
+      grid-column: 3 ;
+      }
+      .g-info p{
+      width:400px;
+      }
+      @media (max-width:768px){
+    .boxes2{
+        display: grid;
+     grid-template-columns: 1fr;  
+      grid-gap: 10px;
+  }
+          .g-image{
+          grid-column: auto;
+          }  
+           .g-info{
+          grid-column: auto;
+          }
+  
+  }
+  }
+  .site-footer {
+  font-family: 'Lato', sans-serif;
+  }
+  
+  .site-footer h1{
+      margin:1rem;
+      color: #0f3D3D;
+  }
+  
+  .site-footer a{    
+  text-decoration: none;    
+      font-weight: 900;
+  }
+  
+  .site-footer h1{
+  font-weight: 650;
+  font-size: 200%;    
+  }
+  .site-footer h1:hover{
+  color: #93BD89;
+  }
+  
+  .site-footer {
+      display:flex;
+      align-items: center;
+      justify-content: space-around;
+  }
+  .f-menubar{   
+  display: flex;
+  flex-wrap:wrap; 
+  list-style: none;
+  padding:0;
+  justify-content: space-around;    
+  }
+  
+  @media (max-width:768px){
+      .f-menubar{
+      flex-direction: column;
+      padding-right:15px;     
+      }
+      .site-footer{
+  display: block;
+   text-align: center;
+  }
+  }
+  .f-menubar li{
+  padding: 10px;
+  }
+  
+  .f-menu a {
+  color:#0F3D3D;
+  ;
+  }
+  .f-menu a:hover{
+  color:#93BD89;
+  }
+  
