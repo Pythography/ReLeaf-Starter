@@ -1,12 +1,15 @@
 ---
-siteTitle: JAMStack with Eleventy
+siteTitle: Re Leaf
 
 ---
 <!doctype html>
-<html lang="en">
 
+<html lang="en">
+  
   <head>
     <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>{{siteTitle}}--{{title}}</title>
     <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js" integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP" crossorigin="anonymous"></script>
@@ -16,8 +19,23 @@ siteTitle: JAMStack with Eleventy
   
   {% include "navigation.njk" %}
   <div class="page-container">{{ content | safe }}</div>
+<div class="site-footer">
+            <a href="index.html" >  <h1>Re Leaf</h1></a>
 
+  <footer class="footer">
+      <div class="f-menu" id="f-menu">    
+        <ul class="f-menubar" id="f-menubar">
+        <li><a href="#">Our Philosophy</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Recipes</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Community</a></li>
+          <li><a href="#">Contact Us</a></li>      
+            </ul>
+              </div>  
+          </footer>
+      </div>
   </body>
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="/js/main.js"></script>
 </html>
