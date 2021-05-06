@@ -7,19 +7,7 @@ tags:
   - welcome
   - info
 ---
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Re Leaf</title>
-    <link rel="stylesheet" href="reset.css">  
-    <link rel="stylesheet" href="main.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-  </head>
   <body>
       <div id="wrapper">
         <header class="site-header">
@@ -134,21 +122,6 @@ tags:
 </div>
           </div>
 
- <div class="site-footer">
-            <a href="index.html" >  <h1>Re Leaf</h1></a>
-
-  <footer class="footer">
-      <div class="f-menu" id="f-menu">    
-        <ul class="f-menubar" id="f-menubar">
-        <li><a href="#">Our Philosophy</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Recipes</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Community</a></li>
-          <li><a href="#">Contact Us</a></li>      
-            </ul>
-              </div>  
-          </footer>
-      </div>
+ 
   </body>
   </html>
