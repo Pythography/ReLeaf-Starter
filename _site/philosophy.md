@@ -17,33 +17,53 @@ layout: page
 </p>
  
 <div class = "icons">
-  <div class="pressure"><img src="/dist/images/pressure.svg" alt="pressure"> <p><b>Lower your blood pressure</p> </b> </div>
-    <div class="heart">  <img src="/dist/images/heart.svg" alt="heart"> <p> <b>Keep your heart healthy </p> </b> </div>
-    <div class="diabetes"><img src="/dist/images/diabetes.svg" alt="diabetes"> <p> <b> Prevent type 2 diabetes</p> </b> </div>
+  <div class="pressure"><img src="/images/pressure.svg" alt="pressure"> <p><b>Lower your blood pressure</p> </b> </div>
+    <div class="heart">  <img src="/images/heart.svg" alt="heart"> <p> <b>Keep your heart healthy </p> </b> </div>
+    <div class="diabetes"><img src="/images/diabetes.svg" alt="diabetes"> <p> <b> Prevent type 2 diabetes</p> </b> </div>
 </div>
 </div>
 
 
 <div class= "books">
-<div class= "text-center>
-<h2 cl>
-<h2>Books</h2>
-<div class="book one"><img src="https://via.placeholder.com/200" alt="Longetivity-Diet"><p>This book discovers the new science behind stem cell activation and regeneration to slow aging, fight sisease, and optimize weight is the culmination of 25 years of research on nutrition, aging, and diseases across the globe</p></div>
-  <div class="book two">  <img src="https://via.placeholder.com/200" alt="Poisoned-Planet"><p>Steinman tells his own story of fishing in the Santa Monica Bay as a child and how he went on to testify before Congress as an expert witness on the contamination of his own body by the fish he ate.</p></div>
-    <div class="book three"><img src="https://via.placeholder.com/200" alt="Future-Nutrition"><p>Colin Campbell, The New York Times bestseller Whole, returns with The Future of Nutrition, a book examining the shortcomings and confusion within the nutrition industry and outlining steps to improve.</p></div>
+<div class= "text-center">
+<h2 class= <h2> BOOKS </h2>
+</div>
+<div class = "description">
+<div class="longetivity"><img src="/images/Longetivity.png" alt="Longetivity-Diet"><p>This book discovers the new science behind stem cell activation and regeneration to slow aging, fight sisease, and optimize weight is the culmination of 25 years of research on nutrition, aging, and diseases across the globe</p>
+<a href="https://www.valterlongo.com/the-longevity-diet/" target="-blank" class="btn">LEARN MORE</a>
+</div>
 
-</section>
+  <div class="planet">  <img src="/images/planet.png" alt="Poisoned-Planet"><p>Steinman tells his own story of fishing in the Santa Monica Bay as a child and how he went on to testify before Congress as an expert witness on the contamination of his own body by the fish he ate.</p>
+  <a href="https://www.amazon.com/Diet-Poisoned-Planet-Twenty-first-Century/dp/1560259221" target="-blank" class="btn">LEARN MORE</a>
+  </div>
+
+ <div class="future"><img src="/images/future.png" alt="Future-Nutrition"><p>Colin Campbell, The New York Times bestseller Whole, returns with The Future of Nutrition, a book examining the shortcomings and confusion within the nutrition industry and outlining steps to improve.</p>
+<a href="https://www.amazon.com/Future-Nutrition-Insiders-Science-Getting/dp/1950665704" target="-blank" class="btn">LEARN MORE</a> 
+ </div>
+
+</div>
 
 
 
 <div class="media">
 <div class="text-center">
-<h2 class= <h2> HELPFUL MEDIA! >
+<h2 class= <h2> MEDIA </h2>
+</div>
+<div class ="description">
+<div class="forks-knives"><a href="https://youtu.be/mZGs0XsS_lI" target="-blank" ><img src="/images/Forks%20and%20knives.png"  alt="forks-Knives"> </a>
+<p>Forks Over Knives examines the profound claim that most, if not all, of the chronic diseases that afflict us can be controlled or even reversed by rejecting animal-based and processed foods.</p></div>
+<div class="whatthehealth"> <a href="https://vimeo.com/ondemand/whatthehealth" target="-blank" > <img src="/images/whatthehealth.png" alt="whatthehealthr"> </a>
+<p>With the help of medical doctors, researchers, and consumer advocates, What the Health exposes the collusion and corruption in government and big business that is costing us trillions of healthcare dollars, and keeping us sick.</p></div>
+
+<div class="heal"> <a href="https://www.imdb.com/video/vi1534834969?playlistId=tt5239942&ref_=tt_ov_vi" target="-blank" > <img src="/images/heal.png" alt="healr"> </a>
+<p>Scientists and spiritual teachers discuss how thoughts, beliefs, and emotions impact human health and the ability to heal</p></div>
+</div>
 </div>
 
-<div class="video one"><img src="https://via.placeholder.com/200" alt="forks-Knives"></div>
-<div class="video two">  <img src="https://via.placeholder.com/200" alt="placeholder"></div>
-<div class="videothree"><img src="https://via.placeholder.com/200" alt="placeholder"></div>
-
+<div class="resources">
+<div class="text-center">
+<h2 class= <h2> HELPFUL RESOURCES </h2>
+<a href="https://www.amazon.com/Diet-Poisoned-Planet-Twenty-first-Century/dp/1560259221" target="-blank" class="btn">CLICK HERE</a>
+</div>
 </div>
 </main>

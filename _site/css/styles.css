@@ -535,36 +535,74 @@ html{
   .f-menu a:hover{
   color:#93BD89;
   }
-
   
   /* philosophy page */
-  .philosophy { 
-    display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-  .philosophy p {
-    grid-column: 1 / span 3;
-  }
-  .pressure{
-    grid-column: 1 / span 2;
-  }
-
-  .diabetes{
-    grid-column: 2;
-  }
-  .heart{
-    grid-column: 3;
-  }
   .banner{
-    padding: 20px;
+    padding: 30px;
     align-content: center;
     width: 100%;
   }
-  /* MEDIA */
-  .media{
-    max-width: 1200px;
-    margin: 0 auto;
+  .philosophy p {
+    padding-bottom: 30px;
   }
-  .text-center{
+  .icons { 
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    padding: 20px;  
+    margin-top: 20px;
+  }
+  .icons p{
+    width: 160px;
     text-align: center;
   }
+  
+  
+  /* Books-Media */
+  .text-center{
+    text-align: center;
+    padding: 20px;
+  }
+  .books .description{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-gap: 20px;
+    padding: 20px;    
+  }
+  .books p{
+    text-align: center;
+    width:300px;
+    
+  }
+  .books img{
+    width: 200px;
+   
+  }
+   .books .btn{
+    border-radius: 10px;
+    color: #5B9E8E;
+    text-align: center;
+    background-color: #fff;
+    margin-top:5px;
+    text-decoration: none;
+  } 
+
+  .media .description{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-gap: 20px;
+    padding: 20px;
+  }
+  
+  .resources .btn{
+   
+    padding:10px 5px; 
+    border-radius: 10px;
+    color: #fff;
+    text-align: center;
+    background-color: #5B9E8E;
+    margin-top:5px;
+    text-decoration: none;
+    padding:10px 5px; 
+  } 
+  
