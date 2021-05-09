@@ -24,7 +24,7 @@ layout: page
 </div>
 
 
-<div class= "books">
+<section class= "books">
 <div class= "text-center">
 <h2 class= <h2> BOOKS </h2>
 </div>
@@ -41,7 +41,7 @@ layout: page
 <a href="https://www.amazon.com/Future-Nutrition-Insiders-Science-Getting/dp/1950665704" target="-blank" class="btn">LEARN MORE</a> 
  </div>
 
-</div>
+</section>
 
 
 
@@ -66,4 +66,6 @@ layout: page
 <a href="https://www.amazon.com/Diet-Poisoned-Planet-Twenty-first-Century/dp/1560259221" target="-blank" class="btn">CLICK HERE</a>
 </div>
 </div>
+
+
 </main>
