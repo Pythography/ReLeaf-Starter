@@ -23,7 +23,7 @@ tags:
   <body>
       <div id="wrapper">
         <header class="site-header">
-            <a href="index.html" >  <h1>Re Leaf</h1></a>
+            <a href="index.html" > <h1>Re Leaf</h1></a>
 
   <nav class="top-nav">
         <div class="menu" id="menu">    
