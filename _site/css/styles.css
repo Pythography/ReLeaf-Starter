@@ -596,15 +596,21 @@ html{
   .media img{
     width:250px;
   }
+  .media p{
+    text-align: center;
+    width:300px;
+   
+  }
+
   .resources .btn{
    
-    padding:10px 5px; 
+    padding:10px 25px; 
     border-radius: 10px;
     color: #fff;
     text-align: center;
     background-color: #5B9E8E;
     margin-top:5px;
     text-decoration: none;
-    padding:10px 5px; 
+    
   } 
   
