@@ -2,6 +2,168 @@ html{
   max-width: 90%;
   margin: auto;    
   }
+
+  body{
+    background: #D7DCFB;
+  }
+
+
+
+/*TEXT STYLES*/
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,400;0,600;1,300;1,500&display=swap');
+
+
+
+h1 {
+
+	font-family: 'Marcellus', serif;
+	font-size: 60px;
+	font-weight: normal;
+	text-align: center;
+	color: #0F3D3D;
+}
+
+
+
+h2 {
+
+	font-family: 'Marcellus', serif;
+	font-size: 40px;
+	font-weight: normal;
+	text-align: center;
+	color: #0F3D3D;
+}
+
+
+
+h4 {
+
+	font-family: 'Marcellus', serif;
+	font-size: 28px;
+	line-height: 1.4em;
+	font-weight: normal;
+	text-align: left;
+	color: #0F3D3D;
+}
+
+
+
+
+h6 {
+	font-family: 'Mulish', sans-serif;
+	font-size: 12px;
+	font-weight: 600;
+	text-align: center;
+	letter-spacing: 0.26em;
+	text-transform: uppercase;
+	color: #0F3D3D;
+	margin-bottom: 24px;
+}
+
+
+p {
+	font-family: sans-serif;
+	font-size: 16px;
+	font-weight: 800;
+	text-align: center;
+	color: #0F3D3D;
+	margin-bottom: 24px;
+	max-width: 600px;
+
+}
+
+
+
+/* NATALIYA */
+
+.n_about_intro{
+  display:flex;
+  margin: 50px auto;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.n_about_intro .hero-button{
+display: flex;
+justify-content: center;
+  margin: 0px 0px;
+}
+
+.n_about_intro h4{
+  text-align: center;
+}
+
+#n_titles{
+  margin: 0px auto;
+
+}
+
+#n_titles h1{
+
+  margin: 10px 10px;
+}
+
+
+
+.n_icons{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 60px;
+    padding: 60px;  
+    margin-top: -70px;
+    width: 90%;
+  }
+
+
+#n_1234{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+
+  .n_icons img{
+width:70px;
+align-items: center;
+  }
+
+
+  .n_icons h4{
+    text-align: center;
+    margin-bottom: 10px;
+      }
+
+  .icons p{
+    width: 160px;
+    text-align: center;
+  }
+
+  #n_team{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 60px;
+    padding: 20px;  
+    margin-top: -70px;
+    width: 90%;
+  }
+
+  .n_team img{
+    width:70px;
+  }
+
+  #n_teammem h4{
+    text-align: left;
+  }
+
+  #n_teammem p{
+    text-align: left;
+    width:60%
+  }
+
+
   @media(max-width:768px){
       html{
       max-width: 100%;
