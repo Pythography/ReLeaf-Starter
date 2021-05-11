@@ -72,7 +72,7 @@ layout: page
 
   <section class="media">
 
-    <div class="text-center">
+  <div class="text-center">
       <h2> MEDIA </h2>
     </div>
     <div class="description">
@@ -88,7 +88,7 @@ layout: page
           us sick.</p>
       </div>
 
-      <div class="heal"> <a href="https://www.imdb.com/video/vi1534834969?playlistId=tt5239942&ref_=tt_ov_vi"
+  <div class="heal"> <a href="https://www.imdb.com/video/vi1534834969?playlistId=tt5239942&ref_=tt_ov_vi"
           target="-blank"> <img src="/images/heal.png" alt="healr"> </a>
         <p>Scientists and spiritual teachers discuss how thoughts, beliefs, and emotions impact human health and the
           ability to heal</p>
