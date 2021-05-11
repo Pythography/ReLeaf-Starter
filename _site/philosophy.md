@@ -18,11 +18,11 @@ layout: page
  </div>
  
  <div class = "a_icons">
-  <div class="pressure"> <div class= "a_imagery"> <img src="/images/pressure.svg" alt="blood pressure"> </div> <h4><b>Lower your blood pressure</h4> </b> </div>
+  <div class="pressure"> <div class= "a_imagery"> <img src="/images/pressure.svg" alt="blood pressure"> </div> <h5><b>Lower your blood pressure</h5> </b> </div>
   
-  <div class="heart"> <div class= "a_imagery"> <img src="/images/heart.svg" alt="healthy heart"> </div> <h4><b>Keep your heart healthy </h4></b> </div>
+  <div class="heart"> <div class= "a_imagery"> <img src="/images/heart.svg" alt="healthy heart"> </div> <h5><b>Keep your heart healthy </h5></b> </div>
 
-  <div class="diabetes"> <div class= "a_imagery"><img src="/images/diabetes.svg" alt="prevent diabetes"> </div> <h4> <b> Prevent type 2 diabetes</h4> </b> </div>
+  <div class="diabetes"> <div class= "a_imagery"><img src="/images/diabetes.svg" alt="prevent diabetes"> </div> <h5> <b> Prevent type 2 diabetes</h5> </b> </div>
 
  </div>
 </section>
@@ -44,12 +44,13 @@ layout: page
  <div class="future"> <div class= "a_imagery"> <img src="/images/future.png" alt="Future-Nutrition"> </div> <p>Colin Campbell, The New York Times bestseller Whole, returns with The Future of Nutrition, a book examining the shortcomings and confusion within the nutrition industry and outlining steps to improve.</p>
 <a href="https://www.amazon.com/Future-Nutrition-Insiders-Science-Getting/dp/1950665704" target="-blank" class="btn">LEARN MORE</a> 
  </div>
+ </section>
 
 <!-- media -->
   <section class="media">
 
   <div class="text-center">
-      <h2> MEDIA </h2>
+      <h4> MEDIA </h4>
     </div>
     <div class="description">
       <div class="forks-knives"><a href="https://youtu.be/mZGs0XsS_lI" target="-blank"><img
