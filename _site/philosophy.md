@@ -5,15 +5,14 @@ layout: page
 ---
 
 <main>
-
-<div class="banner">
+<section class="banner">
 <img src="/images/banner.jpg" alt="banner">
  <h3> <b>"Let food be thy medicine, and medicine be thy food." - Hippocrates</h3> </b>
-</div>
+</section>
 
-<div class="philosophy">
+<section class="philosophy">
 
-<p>We believe that living a healthy lifestyle lies in consistency and daily habits. It is not the big things. Daily small habits done consistently over time is what gives you results naturally and also the health life which you so dearly desire. That’s why Re Leaf provides lots of   information you should know that will help you understand better the benefits of following a plant-based diet. This includes not only fruits and vegetables, but also nuts, seeds, oils, whole grains, legumes, and beans. It doesn’t mean that you are vegetarian or vegan and never eat meat or dairy. Rather, you are proportionately choosing more of your foods from plant sources. Some on the  helth benefits of following a plant-based diet are:
+<p>We believe that living a healthy lifestyle lies in consistency and daily habits. Daily small habits done consistently over time is what gives you results naturally and also the health life which you so dearly desire. That’s why Re Leaf provides lots of   information you should know that will help you understand better the benefits of following a plant-based diet. This includes not only fruits and vegetables, but also nuts, seeds, oils, whole grains, legumes, and beans. It doesn’t mean that you are vegetarian or vegan and never eat meat or dairy. Rather, you are proportionately choosing more of your foods from plant sources. Some on the  helth benefits of following a plant-based diet are:
 </p>
  
 <div class = "icons">
@@ -21,7 +20,7 @@ layout: page
     <div class="heart">  <img src="/images/heart.svg" alt="heart"> <p> <b>Keep your heart healthy </p> </b> </div>
     <div class="diabetes"><img src="/images/diabetes.svg" alt="diabetes"> <p> <b> Prevent type 2 diabetes</p> </b> </div>
 </div>
-</div>
+</section>
 
 
 <section class= "books">
@@ -45,7 +44,7 @@ layout: page
 
 
 
-<div class="media">
+<section class="media">
 <div class="text-center">
 <h2 class= <h2> MEDIA </h2>
 </div>
@@ -58,14 +57,14 @@ layout: page
 <div class="heal"> <a href="https://www.imdb.com/video/vi1534834969?playlistId=tt5239942&ref_=tt_ov_vi" target="-blank" > <img src="/images/heal.png" alt="healr"> </a>
 <p>Scientists and spiritual teachers discuss how thoughts, beliefs, and emotions impact human health and the ability to heal</p></div>
 </div>
-</div>
+</section>
 
-<div class="resources">
+<section class="resources">
 <div class="text-center">
 <h2 class= <h2> HELPFUL RESOURCES </h2>
-<a href="https://www.amazon.com/Diet-Poisoned-Planet-Twenty-first-Century/dp/1560259221" target="-blank" class="btn">CLICK HERE</a>
+<a href="resources.md" class="btn">CLICK HERE</a>
 </div>
-</div>
+</section>
 
 
 </main>

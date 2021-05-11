@@ -593,7 +593,9 @@ html{
     grid-gap: 20px;
     padding: 20px;
   }
-  
+  .media img{
+    width:250px;
+  }
   .resources .btn{
    
     padding:10px 5px; 
