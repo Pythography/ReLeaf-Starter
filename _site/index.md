@@ -8,8 +8,27 @@ tags:
   - info
 ---
 
-<body>
- <div class="boxes"><div class="box one">
+
+  </head>
+  <body>
+      <div id="wrapper">
+        <header class="site-header">
+            <a href="index.html" > <h1>Re Leaf</h1></a>
+
+  <nav class="top-nav">
+        <div class="menu" id="menu">    
+          <ul class="menubar" id="menubar">
+          <li><a href="#">Our Philosophy</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Recipes</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Community</a></li>
+            </ul>
+              </div>  
+          </nav>
+        </header>
+   <div class="boxes"><div class="box one">
+
 <img src="images/Be-Positive-unsplash.jpg" alt="Positive">
 </div>
   <div class="box two">
