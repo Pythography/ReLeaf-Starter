@@ -698,7 +698,9 @@ align-items: center;
   color:#93BD89;
   }
   
-  /* philosophy page */
+  /* ANGELICA */
+  /* PHILOSOPHY PAGE */
+
   .banner{
     padding: 30px;
     align-content: center;
@@ -707,17 +709,30 @@ align-items: center;
   .philosophy p {
     padding-bottom: 30px;
   }
-  .icons { 
+  .a_icons { 
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 20px;
-    padding: 20px;  
+    padding: 10px;  
     margin-top: 20px;
+    width: 90%;
   }
-  .icons p{
-    width: 160px;
-    text-align: center;
+  .a_imagery{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+
   }
+
+  .a_icons img{
+    align-items: center;
+  }
+  .a_icons h4{
+    width: 150px;
+   align-items: center;
+  }
+
   
   
   /* Books-Media */
@@ -737,8 +752,13 @@ align-items: center;
     
   }
   .books img{
+    text-align: center;
     width: 200px;
-   
+    
+  }
+
+  .description a{
+    text-align: center;
   }
    .books .btn{
     border-radius: 10px;
@@ -776,3 +796,4 @@ align-items: center;
     
   } 
   
+  /* RESOURCES PAGE */
