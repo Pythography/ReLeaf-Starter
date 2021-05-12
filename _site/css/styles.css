@@ -82,8 +82,54 @@ p {
 }
 
 
+/* NATALIYA MEALPREP */
 
-/* NATALIYA */
+.c25 {
+	width: 25%;
+	text-align: center;
+}
+
+
+.c33 {
+	width: 33.333333%;
+	text-align: center;
+}
+
+
+
+
+.c50 {
+	width: 50%;
+}
+
+.c100 {
+	width: 100%;
+}
+
+
+.mealprep{
+  display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 60px;
+    padding: 60px;  
+    margin-top: -70px;
+    width: 90%;
+}
+
+.mealprep p{
+  text-align: left;
+}
+
+.mealprep h5{
+  font-family: 'Lato', sans-serif;
+}
+
+
+
+
+
+
+/* NATALIYA ABOUT*/
 
 .n_about_intro{
   display:flex;
