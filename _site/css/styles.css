@@ -1,18 +1,13 @@
-html{
-  max-width: 90%;
-  margin: auto;    
-  }
-
-  body{
-    background: #D7DCFB;
-  }
-
-
-
 /*TEXT STYLES*/
 @import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,400;0,600;1,300;1,500&display=swap');
 
+body{
+  background: #D7DCFB;
+}
+.main{
+  padding:0 1rem;
+}
 
 
 h1 {
@@ -78,6 +73,7 @@ p {
 	color: #0F3D3D;
 	margin-bottom: 24px;
 	max-width: 800px; 
+  line-height: 1.5;
 
 }
 
@@ -751,103 +747,108 @@ align-items: center;
   .f-menu a:hover{
   color:#93BD89;
   }
+
   /* ANGELICA */
   /* PHILOSOPHY PAGE */
 
   .banner{
-    padding: 30px;
-    align-content: center;
-    width: 100%;
-  }
-  .philosophy p {
-    padding-bottom: 30px;
-  }
-  .a_icons { 
-    display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 20px;
-    padding: 10px;  
-    margin-top: 20px;
-    width: 90%;
-  }
-  .a_imagery{
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-
-  }
-
-  .a_icons img{
-    align-items: center;
-  }
-  .a_icons h4{
-    width: 150px;
-   align-items: center;
+    margin-top: 40px;
+    text-align: center;
   }
 
   
-  
-  /* Books-Media */
-  .text-center{
-    text-align: center;
-    padding: 20px;
-  }
-  .books .description{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr ;
-    grid-gap: 20px;
-    padding: 20px;    
-  }
-  .books p{
-    text-align: center;
-    width:300px;
+    @media screen and (min-width: 600px) {
+      .philosophy {
+        width: 95%;
+        max-width:42rem;
+        margin: 0 auto;
+      }
+    }
     
-  }
-  .books img{
-    text-align: center;
-    width: 200px;
     
-  }
-
-  .description a{
-    text-align: center;
-  }
-   .books .btn{
-    border-radius: 10px;
-    color: #5B9E8E;
-    text-align: center;
-    background-color: #D7DCFB;
-    margin-top:5px;
-    text-decoration: none;
-  } 
-
-  .media .description{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr ;
-    grid-gap: 20px;
-    padding: 20px;
-  }
-  .media img{
-    width:250px;
-  }
-  .media p{
-    text-align: center;
-    width:300px;
-   
-  }
-
-  .resources .btn{
-   
-    padding:10px 25px; 
-    border-radius: 10px;
-    color: #fff;
-    text-align: center;
-    background-color: #5B9E8E;
-    margin-top:5px;
-    text-decoration: none;
+    .a_icons { 
+    /*     display:grid; */
+    /*     grid-template-columns: 1fr 1fr 1fr; */
+    /*     grid-gap: 20px; */
+    /*     padding: 10px;   */
+        margin-top: 50px;
+        width: 90%;
+      
+      display: flex;
+      flex-direction: column;
+    /*   justify-content: space-evenly; */
+    /*   justify-content: space-around; */
+      justify-content: space-between;
+      grid-gap:20px;
+      }
     
-  } 
-  
-  
-  /* RESOURCES PAGE */
+    @media screen and (min-width: 600px) {
+      .a_icons { 
+      display: flex;
+      flex-direction: row;
+    /*   justify-content: space-evenly; */
+    /*   justify-content: space-around; */
+      justify-content: space-between;
+      }
+    }
+    
+      .a_icons_icon{
+        justify-self:center;
+    /*     align-self:center; */
+    /*     text-align: center; */
+        /* outline: 1px solid red; */
+      }
+      
+    
+      .a_imagery{
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+    
+      }
+    
+      .a_icons img{
+        align-items: center;
+      }
+      .a_icons h4{
+        width: 150px;
+       align-items: center;
+      }
+    
+      .books img{
+        width: 200px;
+        
+      }
+      .books .btn{
+        border-radius: 10px;
+        color: #5B9E8E;
+        text-align: center;
+        background-color: #D7DCFB;
+        margin-top:5px;
+        text-decoration: none;
+      } 
+    .description{
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-gap: 2rem;
+    }
+    @media screen and (min-width: 600px) {
+      .description{
+        grid-template-columns: 1fr 1fr 1fr;
+      }
+    }
+    
+    
+    .description-item{
+      text-align: center;
+    }
+    .description-item p{
+      text-align: left;
+    }
+    .text-center h4{
+      text-align: center;
+    } 
+    .media img{
+      width:250px;
+    }
