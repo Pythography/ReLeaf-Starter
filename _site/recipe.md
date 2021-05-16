@@ -29,7 +29,6 @@ tags:
     <li>This recipe contains 40% of daily protein value with only 410 calories. It is very delicios and will keep you full and active through the day. </li>
     <li>Time:<strong>40 minutes</strong> </li>
     <li>Calories:<strong>410</strong></li>  
-    
     </ul>
 </div>
           </div>
