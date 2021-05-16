@@ -41,8 +41,8 @@ tags:
 <img src="images/Be-Positive-unsplash.jpg" alt="Positive">
 </div>
   <div class="box two">
-  <h1>Philosophy</h1>
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta officiis, dolore, optio labore perspiciatis facilis! Officiis hic voluptate eius at unde, illo, cupiditate sit labore, veniam autem id minima perferendis!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta officiis, dolore, optio labore perspiciatis facilis! Officiis hic voluptate eius at unde, illo, cupiditate sit labore, veniam autem id minima perferendis!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta officiis, dolore, optio labore perspiciatis facilis! Officiis hic voluptate eius at unde, illo, cupiditate sit labore, veniam autem id minima perferendis!</p>
+  <h1>Lifestyles Transformed</h1>
+  <p>We believe that following a Plant-based diet can drastically improve your overall health, so we built a community motivating people to lead healthier lifestyles by providing guidance and access to healthy food habits. </p>
     <button class="hero-button">Learn More</button>
 </div>
           </div>
@@ -50,11 +50,12 @@ tags:
 <div class="MS-container">
     <div class="MS-heading">
     <h1>Mission Statement</h1>
+    At Re Leaf we are committed to helping people attain the highest degree of health. Our goal is to inspire and empower people to succeed in a safe and caring environment by supporting them as they work towards their goals.
     </div>
     <div class="MSboxes">
-    <div class="box star"><img src="images/star.svg" alt="placeholder"></div>
-    <div class="box star">  <img src="images/star.svg" alt="placeholder"></div>
-    <div class="box star"><img src="images/star.svg" alt="placeholder"></div>
+    <div class="box star"><img src="images/knowledge.svg" alt="placeholder">Teaching you how nutrients and food components impact human health.</div>
+    <div class="box star">  <img src="images/nutrition.svg" alt="placeholder">Providing a large variety of recipes and meal prep ideas that make life easier.</div>
+    <div class="box star"><img src="images/yoga.svg" alt="placeholder">Offering events ranging from yoga workshops to cooking classes.</div>
      
    </div>
       </div>
@@ -63,21 +64,21 @@ tags:
  
 <div class="e-box e-info">
     <h1>Events</h1>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta officiis, dolore, optio labore perspiciatis facilis! Officiis hic voluptate eius at unde, illo, cupiditate sit labore, veniam autem id minima perferendis!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta officiis, dolore, optio labore perspiciatis facilis! Officiis hic voluptate eius at unde, illo, cupiditate sit labore, veniam autem id minima perferendis!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta officiis, dolore, optio labore perspiciatis facilis! Officiis hic voluptate eius at unde, illo, cupiditate sit labore, veniam autem id minima perferendis!</p>
+<p>Re Leaf offers monthly events that will help you improve your overall health. One of the ways Re Leaf will help you get healthier is through our events. Including cooking lessons, meditation classes, and yoga sessions, we’ll always have something planned. This month, we’ll even have a special guest that will speak at our events. </p>
     <button class="hero-button">Sign Up</button>
 </div>
                  <div class="e-box e-image">
-<img src="images/Yoga1.jpg" alt="Yoga">
+<img src="images/events.png" alt="Event">
 </div>
                  <div class="e-box e-f1">
 <img src="images/star.svg" alt="placeholder">
-    <h1>Feature One</h1>
-        <p>Lorem ipsum dolor sit amet, adipisicing elit. Dicta officiis, dolore, optio labore perspiciatis facilis!</p>
+    <h1>Yoga Flow</h1>
+        <p>If you are looking for a balance between your life and workload we got your back!!</p>
 </div>
                  <div class="e-box e-f2">
 <img src="images/star.svg" alt="placeholder">
-     <h1>Feature Two</h1>
-        <p>Lorem ipsum dolor sit amet, adipisicing elit. Dicta officiis, dolore, optio labore perspiciatis facilis!</p>
+     <h1>Nutritional Facts</h1>
+        <p>Are you following a vegan diet and wondering how to get enough protein? Come join us and learn from a professional.</p>
 </div>
              </div>
     <div class="container">
@@ -87,23 +88,23 @@ tags:
     <div class="row">
         <div class="card">
             <div class="card-header">
-           <img class="card-img" src="https://via.placeholder.com/300" alt="placeholder">
+           <img class="card-img" src="images/Blog#1.png" alt="placeholder">
         </div>
             <div class="card-body">
-            <p>Lorem ispsum
+            <p>Love & Lemons
                 </p>
-                <a href="#" class="btn">Read More</a>
+                <a href="#" class="btn">View Full Project</a>
         </div>
             
   </div>
     <div class="card">
      <div class="card-header">
-        <img class="card-img" src="https://via.placeholder.com/300" alt="placeholder">
+        <img class="card-img" src="images/Blog#1.png" alt="placeholder">
         </div>
             <div class="card-body">
-            <p>Lorem ispsum
+            <p>Minimalist Baker
                 </p>
-                <a href="#" class="btn">Read More</a>
+                <a href="#" class="btn">View Full Project</a>
         </div>
             
    </div> <!-- Div card Closing -->
@@ -114,7 +115,7 @@ tags:
             <div class="card-body">
             <p>Lorem ispsum
                 </p>
-                <a href="#" class="btn">Read More</a>
+                <a href="#" class="btn">View Full Project</a>
         </div>
             
   </div> <!-- Div card Closing -->
