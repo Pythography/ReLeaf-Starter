@@ -27,7 +27,8 @@ tags:
               </div>  
           </nav>
         </header>
-   <div class="boxes"><div class="box one">
+   <div class="boxes">
+   <div class="box one">
 
 <img src="images/Be-Positive-unsplash.jpg" alt="Positive">
 </div>

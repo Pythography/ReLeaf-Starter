@@ -73,7 +73,7 @@ p {
 	color: #0F3D3D;
 	margin-bottom: 24px;
 	max-width: 800px; 
-  line-height: 1.5;
+  line-height: 1.8;
 
 }
 
@@ -750,70 +750,101 @@ align-items: center;
 
   /* ANGELICA */
   /* PHILOSOPHY PAGE */
-
-  .banner{
-    margin-top: 40px;
-    text-align: center;
+  .main{
+    padding:0 4rem;
   }
 
-  
-    @media screen and (min-width: 600px) {
-      .philosophy {
-        width: 95%;
-        max-width:42rem;
-        margin: 0 auto;
-      }
+  @media screen and (max-width:600px) {
+    .a_c50 {
+        width: 100%;
     }
+    .a_intro{
+        flex-direction: column;
+    }
+}  
+  .a_intro{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1150px;
+    margin: 60px auto;
+    
+  }
+  
+  
+  .a_c50{
+    width: 50%;
+
+   
+  }
+  .a_c50 img{
+    max-width: 100%;
+    width: auto;  
+  }
+  
+.a_c50 h1{
+  margin-top: 20px;
+  margin-bottom: 0px;
+ text-align: left;
+ margin-left: 30px;
+
+}
+.a_c50 p{
+  margin-top: 40px;
+  margin-left: 30px;
+
+}
+
+  @media screen and (min-width: 600px) {
+    .p_description {
+      width: 95%;
+      max-width:42rem;
+      margin: 0 auto;
+      margin-bottom: 5%;
+     }
+  }
     
     
+  .a_icons { 
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    grid-gap:150px;
+  }
+    
+  @media screen and (min-width: 600px) {
     .a_icons { 
-    /*     display:grid; */
-    /*     grid-template-columns: 1fr 1fr 1fr; */
-    /*     grid-gap: 20px; */
-    /*     padding: 10px;   */
-        margin-top: 50px;
-        width: 90%;
-      
-      display: flex;
-      flex-direction: column;
-    /*   justify-content: space-evenly; */
-    /*   justify-content: space-around; */
-      justify-content: space-between;
-      grid-gap:20px;
-      }
-    
-    @media screen and (min-width: 600px) {
-      .a_icons { 
       display: flex;
       flex-direction: row;
-    /*   justify-content: space-evenly; */
-    /*   justify-content: space-around; */
       justify-content: space-between;
-      }
     }
+  }
     
-      .a_icons_icon{
-        justify-self:center;
-    /*     align-self:center; */
-    /*     text-align: center; */
-        /* outline: 1px solid red; */
-      }
+  .a_icons_icon{
+     justify-self:center;
+  }
+
+  .a_icons_icon h5{
+  text-align: center; 
+  }
       
+  .a_imagery{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+   }
     
-      .a_imagery{
-      display: flex;
-      flex-wrap: wrap;
-      align-items: center;
-      justify-content: center;
-    
-      }
-    
-      .a_icons img{
-        align-items: center;
-      }
+   .a_icons img{
+    align-items: center;
+   }
       .a_icons h4{
         width: 150px;
        align-items: center;
+      }
+      .books, .media{
+        margin-bottom: 10%;
       }
     
       .books img{
@@ -827,11 +858,13 @@ align-items: center;
         background-color: #D7DCFB;
         margin-top:5px;
         text-decoration: none;
+        
       } 
     .description{
       display: grid;
       grid-template-columns: 1fr;
       grid-gap: 2rem;
+      /* outline: 1px solid red; */
     }
     @media screen and (min-width: 600px) {
       .description{
@@ -842,13 +875,26 @@ align-items: center;
     
     .description-item{
       text-align: center;
+      justify-content: center;
+      /* outline: 1px solid red; */
     }
+    
     .description-item p{
-      text-align: left;
-    }
-    .text-center h4{
       text-align: center;
+      width: 330px;
+      /* outline: 1px solid red; */
+    }
+    .description p{
+      place-self: center; 
+       /* outline: 1px solid red;  */
+       text-align: center;
+      justify-content: center;
+    }
+
+    .text-center h4{
+      align-self: center;
     } 
+
     .media img{
       width:250px;
     }
