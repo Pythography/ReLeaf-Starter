@@ -38,7 +38,7 @@ tags:
           </nav>
         </header>
    <div class="boxes"><div class="box one">
-<img src="images/Be-Positive-unsplash.jpg" alt="Positive">
+<img src="images/hpimg.png" alt="Positive">
 </div>
   <div class="box two">
   <h1>Lifestyles Transformed</h1>
@@ -71,7 +71,7 @@ tags:
 <img src="images/events.png" alt="Event">
 </div>
                  <div class="e-box e-f1">
-<img src="images/star.svg" alt="placeholder">
+<img src="images/yogaflow.svg" alt="Yoga Flow">
     <h1>Yoga Flow</h1>
         <p>If you are looking for a balance between your life and workload we got your back!!</p>
 </div>

@@ -93,7 +93,7 @@ html{
     
     .boxes{
       display: grid;
-     grid-template-columns: 1fr 1fr 1fr;
+     grid-template-columns: 1fr 1fr 1fr ;
       grid-gap: 10px;
   }
       .two{
@@ -204,7 +204,12 @@ html{
       padding:0; 
       display: grid;
      grid-template-columns: 1fr 1fr 1fr;
-  
+  }
+  .star{
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+
   }
   @media (max-width:768px){
    .MSboxes{
@@ -537,9 +542,7 @@ html{
   }
   
   /* start of recipe css*/
-html{
-  max-width: 100%;
-  }
+
   .square {
   position: absolute;
   margin:-400px 0 0 -100px;     
