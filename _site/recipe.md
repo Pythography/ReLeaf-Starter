@@ -11,7 +11,7 @@ tags:
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Re Leaf</title>
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="recipe.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -37,38 +37,38 @@ tags:
           <div class="nutrition">
             <div class="n-cards calories">
   <div class="n-container">
-    <h4><b>Calories</b></h4> 
+    <b>Calories</b>
     <p>410</p>
 
   </div>              
 </div>          
         <div class="n-cards sodium">
   <div class="n-container">
-    <h4><b>Sodium</b></h4> 
+    <b>Sodium</b>
     <p>40% DV</p>  
   </div>
 </div> 
     <div class="n-cards fat">
   <div class="n-container">
-    <h4><b>Fat</b></h4> 
+    <b>Fat</b>
     <p>28% DV</p> 
     </div>
 </div> 
             <div class="n-cards protein">
   <div class="n-container">
-    <h4><b>Protein</b></h4> 
+    <b>Protein</b>
     <p>39% DV</p> 
     </div>
 </div> 
      <div class="n-cards carbs">
   <div class="n-container">
-    <h4><b>Carbs</b></h4> 
+    <b>Carbs</b>
     <p>14% DV</p>
   </div>
 </div> 
             <div class="n-cards fiber">
   <div class="n-container">
-    <h4><b>Fiber</b></h4> 
+    <b>Fiber</b> 
     <p>76 DV</p> 
   </div>
 </div> 
