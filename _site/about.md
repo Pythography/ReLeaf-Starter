@@ -37,19 +37,19 @@ layout: page
 
 
 <div id="n_iconsind"><div id="n_1234"><img src="/images/about/goal.svg" alt="goal achiever" ></div>
-    <h4>Health-Forward</h4>
-    <p>lorem ipsum sit amet lorem ipsum sit ametlorem ipsum sit ametlorem ipsum sit ametlorem ipsum sit ametlorem ipsum sit amet</p>
+    <h4>Health</h4>
+    <p>We believe nourishing the mind, body, and spirit is the best path forward to creating the best versions of ourselves</p>
 </div>
 
 <div id="n_iconsind"><div id="n_1234"><img src="/images/about/smiley.svg" alt="community"></div>
-    <h4>Community Driven</h4>
-    <p>lorem ipsum sit amet lorem ipsum sit ametlorem ipsum sit ametlorem ipsum sit ametlorem ipsum sit ametlorem ipsum sit amet</p>
+    <h4>Community</h4>
+    <p>Our community driven approach to events, recipes, and exercise fosters a sense of cohesiveness and togetherness.</p>
 </div>
 
 
 <div id="n_iconsind"><div id="n_1234"><img src="/images/about/balance.svg" alt="community"></div>
-    <h4>Work-Life Balance</h4>
-    <p>lorem ipsum sit amet lorem ipsum sit ametlorem ipsum sit ametlorem ipsum sit ametlorem ipsum sit ametlorem ipsum sit amet</p>
+    <h4>Balance</h4>
+    <p>We support our members with practicing moderation between work, school, and personal life so they’re empowered to live a fulfilled life.</p>
 </div>
 
 

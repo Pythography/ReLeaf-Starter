@@ -211,6 +211,8 @@ display: flex;
   }
 
 
+
+
 #n_1234{
   display: flex;
   flex-wrap: wrap;
@@ -218,6 +220,10 @@ display: flex;
   justify-content: center;
 }
 
+
+#n_iconsind p{
+  text-align: center;
+}
 
   .n_icons img{
 width:50px;
@@ -232,7 +238,6 @@ align-items: center;
       }
 
   .icons p{
-    width: 160px;
     text-align: center;
   }
 
