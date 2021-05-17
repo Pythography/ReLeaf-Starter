@@ -52,7 +52,7 @@ layout: page
  <div class= "text-center">
  <h4> BOOKS </h4>
  </div>
- <div class = "description">
+ <div class= "description">
  <div class="longetivity description-item"> <div class= "a_imagery"> <img src="/images/Longetivity.png" alt="Longetivity-Diet"> </div> <p>This book discovers the new science behind stem cell activation and regeneration to slow aging, with 25 years of research on nutrition, aging, and diseases across the globe</p>
  <a href="https://www.valterlongo.com/the-longevity-diet/" target="-blank" class="btn">LEARN MORE</a>
  </div>
@@ -68,9 +68,8 @@ layout: page
  </section>
 
 <!-- media -->
-  <section class="media">
-
-  <div class="text-center">
+<section class="media">
+ <div class="text-center">
       <h4> MEDIA </h4>
     </div>
     <div class="description">
