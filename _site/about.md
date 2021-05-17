@@ -69,18 +69,19 @@ layout: page
 
  <div class="n_icons">
 
-<div id="n_iconsind"><div id="n_1234"><img src="/images/about/angelica.png" style="width:100%;" alt="community"></div>
+<div id="n_iconsind"><div id="n_1234nat"><img src="/images/about/angelica.png" style="width:100%;" alt="community"></div>
     <h4>Angelica</h4>
     <p>My journey as a healthy eater was a complete roller coaster. I started many times, and after a week, or two  I had given up. It was only until I truly understood how and why certain foods affect my body that I  finally stuck to a vegan diet.</p>
 </div>
 
-<div id="n_iconsind"><div id="n_1234"><img src="/images/about/nataliya.png" style="width:100%; margin-top:70px;" alt="community"></div>
+<div class="padding-top"><div id="n_iconsind"><div id="n_1234nat"><img src="/images/about/nataliya.png" alt="community"></div>
     <h4>Nataliya</h4>
     <p>Nataliya is a freelance Creative Director and Yoga Instructor. She’s a vegetarian, turquoise-obsessed, world citizen looking to bring people together to create a conscious community focused on healthy living. </p>
 </div>
+</div>
 
 
-<div id="n_iconsind"><div id="n_1234"><img src="/images/about/nataliya.png" style="width:100%;" alt="community"></div>
+<div id="n_iconsind"><div id="n_1234nat"><img src="/images/about/nataliya.png" style="width:100%;" alt="community"></div>
     <h4>Daniel</h4>
     <p>lorem ipsum sit amet lorem ipsum sit ametlorem ipsum sit ametlorem ipsum sit ametlorem ipsum sit ametlorem ipsum sit amet</p>
 </div>

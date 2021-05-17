@@ -154,13 +154,17 @@ display: flex;
 
 #n_ourstory{
   background-image: url("/images/about/ourstory@2x.jpg");
-  background-size: 1300px 400px;
+  background-size: 1800px 600px;
   background-color: #cccccc;
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
 
   align-content: center;
 }
+
+
+
+
 
 #n_ourstory h1{
   padding: 100px 0px;
@@ -220,6 +224,19 @@ display: flex;
   justify-content: center;
 }
 
+#n_1234nat{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+
+#n_1234nat img{
+  padding-bottom: 0px;
+  width: 100%;
+}
 
 #n_iconsind p{
   text-align: center;
@@ -264,6 +281,10 @@ align-items: center;
   }
 
 
+  .padding-top{
+    padding-top: 70px;
+  }
+
   .n_button{
     background-color: #0F3D3D; /* Green */
   border: none;
@@ -285,6 +306,85 @@ align-items: center;
     padding: 30px 50px;
     margin: 100px 100px;
   }
+
+
+  @media(max-width:768px){
+
+    .main{padding: 0px 1rem;
+    }
+
+    #n_ourstory h1{
+      font-size: 40px;
+      padding: 100px 0px;
+    }
+
+
+
+#n_paragraph h4{
+  margin-top: 20px;
+ }
+
+    
+    #n_ourstory{
+      background-size: 900px 300px;
+      background-color: #cccccc;
+      background-position: right; /* Center the image */
+    }
+
+
+
+    .n_icons{
+      display:grid;
+      grid-template-columns: 1fr;
+      grid-gap: 10px;
+      padding: 20px 20px;  
+      width: 90%;
+    }
+
+    #n_iconsind{
+      margin-bottom: 20px;
+    }
+
+    
+    .padding-top{
+      padding-top: 0px;
+    }
+
+    #n_1234{
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .n_join{
+      background-color: #EAEDFF;
+      border-radius: 8px;
+      display: block;
+      align-items: center;
+      justify-content: center;
+      padding: 30px 30px;
+      margin: 0px;
+    }
+
+    .n_join h4{
+      text-align: center;
+
+  }
+
+  .n_join p{
+    text-align: center;
+  }
+ .n_button{
+  margin-left: 0px;
+ } 
+
+
+}
+
+
+/* NATALIYA ENDS */
+
 
 
   @media(max-width:768px){
@@ -823,9 +923,9 @@ align-items: center;
 
   /* ANGELICA */
   /* PHILOSOPHY PAGE */
-  .main{
+  /* .main{
     padding:0 4rem;
-  }
+  } */
 
   @media screen and (max-width:600px) {
     .a_c50 {
