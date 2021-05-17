@@ -7,39 +7,9 @@ tags:
   - welcome
   - info
 ---
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Re Leaf</title>
-    <link rel="stylesheet" href="reset.css">  
-    <link rel="stylesheet" href="main.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-  </head>
-  <body>
-      <div id="wrapper">
-        <header class="site-header">
-            <a href="index.html" >  <h1>Re Leaf</h1></a>
-
-  <nav class="top-nav">
-        <div class="menu" id="menu">    
-          <ul class="menubar" id="menubar">
-          <li><a href="#">Our Philosophy</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Recipes</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Community</a></li>
-            </ul>
-              </div>  
-          </nav>
-        </header>
    <div class="boxes"><div class="box one">
-<img src="images/hpimg.png" alt="Positive">
-</div>
+<img src="images/hpimg.png" alt="Positive"></div>
   <div class="box two">
   <h1>Lifestyles Transformed</h1>
   <p>We believe that following a Plant-based diet can drastically improve your overall health, so we built a community motivating people to lead healthier lifestyles by providing guidance and access to healthy food habits. </p>
@@ -50,17 +20,17 @@ tags:
 <div class="MS-container">
     <div class="MS-heading">
     <h1>Mission Statement</h1>
-    At Re Leaf we are committed to helping people attain the highest degree of health. Our goal is to inspire and empower people to succeed in a safe and caring environment by supporting them as they work towards their goals.
+    <P>At Re Leaf we are committed to helping people attain the highest degree of health. Our goal is to inspire and empower people to succeed in a safe and caring environment by supporting them as they work towards their goals.<p>
     </div>
     <div class="MSboxes">
-    <div class="box star"><img src="images/knowledge.svg" alt="placeholder">Teaching you how nutrients and food components impact human health.</div>
-    <div class="box star">  <img src="images/nutrition.svg" alt="placeholder">Providing a large variety of recipes and meal prep ideas that make life easier.</div>
-    <div class="box star"><img src="images/yoga.svg" alt="placeholder">Offering events ranging from yoga workshops to cooking classes.</div>
+    <div class="box star"><img src="images/knowledge.svg" alt="placeholder"><p>Teaching you how nutrients and food components impact human health.</p></div>
+    <div class="box star">  <img src="images/nutrition.svg" alt="placeholder"><p>Providing a large variety of recipes and meal prep ideas that make life easier.</p></div>
+    <div class="box star"><img src="images/yoga.svg" alt="placeholder"><p>Offering events ranging from yoga workshops to cooking classes.</p></div>
      
    </div>
       </div>
-          </div>
-         <div class="Event-boxes">
+    
+  <div class="Event-boxes">
  
 <div class="e-box e-info">
     <h1>Events</h1>
@@ -72,12 +42,12 @@ tags:
 </div>
                  <div class="e-box e-f1">
 <img src="images/yogaflow.svg" alt="Yoga Flow">
-    <h1>Yoga Flow</h1>
+    <h3>Yoga Flow</h3>
         <p>If you are looking for a balance between your life and workload we got your back!!</p>
 </div>
                  <div class="e-box e-f2">
 <img src="images/star.svg" alt="placeholder">
-     <h1>Nutritional Facts</h1>
+     <h3>Nutritional Facts</h3>
         <p>Are you following a vegan diet and wondering how to get enough protein? Come join us and learn from a professional.</p>
 </div>
              </div>
@@ -130,26 +100,9 @@ tags:
 </div>
 <div class="box2 g-info">
     <h2>Want to join?</h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta officiis, dolore, optio labore perspiciatis facilis! Officiis hic voluptate eius at unde, illo, cupiditate sit labore, veniam autem id minima perferendis!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta officiis, dolore, optio labore perspiciatis facilis!  </p>
+<p>Want to join our team, help organizing events, or become an active member? Learn about our values and aspirations first.  </p>
     <button class="hero-button">Learn More</button>
 </div>
           </div>
 
- <div class="site-footer">
-            <a href="index.html" >  <h1>Re Leaf</h1></a>
-
-  <footer class="footer">
-      <div class="f-menu" id="f-menu">    
-        <ul class="f-menubar" id="f-menubar">
-        <li><a href="#">Our Philosophy</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Recipes</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Community</a></li>
-          <li><a href="#">Contact Us</a></li>      
-            </ul>
-              </div>  
-          </footer>
-      </div>
-  </body>
-  </html>
+ 
