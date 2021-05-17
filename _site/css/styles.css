@@ -938,7 +938,9 @@ flex-wrap: wrap;
 
   
   /* start of recipe css*/
-
+.recipe-page h2{
+text-align: left;
+}
   .square {
   position: absolute;
   margin:-400px 0 0 -100px;     
@@ -980,8 +982,10 @@ flex-wrap: wrap;
       .recipe-info{
       font-family: Lato;   
       color:#0F3D3D;
-  
       grid-column: 3/ span 2;
+      }
+      .recipe-info h2{
+        text-align: left;
       }
       @media (max-width:1200px){
        .square{
@@ -1039,6 +1043,10 @@ flex-wrap: wrap;
   text-align: center;    
     padding:30px 10px;
   }
+  .n-container p{
+text-align: center;
+font-family:Lato ;
+  }
   @media (max-width:1200px){
       .n-cards{    
       margin: 10px 10px 10px 20px;
@@ -1090,6 +1098,10 @@ flex-wrap: wrap;
   .back-to h2{
       padding: 20px;
   text-align: center;
+  }
+  .back-to p{
+text-align: center;
+
   }
   .back-button img{
       position: absolute;

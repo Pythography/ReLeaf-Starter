@@ -7,21 +7,12 @@ tags:
   - welcome
   - info
 ---
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Re Leaf</title>
-    <link rel="stylesheet" href="recipe.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  </head>
-  <body>
+<head>
+<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.18.1/build/cssnormalize/cssnormalize-min.css">
+</head>
+<div class="recipe-page">
 <div class="square"></div>     
-<!--Put nav here-->
- <div class="recipe-boxes"><div class="recipe-box recipe-img">
-<img src="images/Be-Positive-unsplash.jpg" alt="Positive">
-</div>
+ <div class="recipe-boxes"><div class="recipe-box recipe-img"> <img src="images/hpimg.png" alt="Lentil Salad"></div>
 <div class="recipe-box recipe-info">
   <ul class="recipe-description">
     <li>Monday</li>
@@ -69,7 +60,7 @@ tags:
             <div class="n-cards fiber">
   <div class="n-container">
     <b>Fiber</b> 
-    <p>76 DV</p> 
+    <p>76% DV</p> 
   </div>
 </div> 
     </div>
@@ -77,7 +68,7 @@ tags:
       <h3>List of Ingredients:</h3>
       <ul class="ing-list">
           <li>1 1/2 cup black beluga lentils(or French Lentils)</li>
-          <li>ONion chopped (any type of color)</li>
+          <li>Onion chopped (any type of color)</li>
           <li>1 teaspoon kosher salt</li>
           <li>Olive oil</li>
           <li>Bell Pepper</li>
@@ -113,5 +104,4 @@ tags:
                   </div></a>
       </section>
           </div>
-          <!-- Put footer here -->
-  </body>
+ </div>
