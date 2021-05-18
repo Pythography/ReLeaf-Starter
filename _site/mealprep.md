@@ -8,17 +8,19 @@ layout: page
 
 <!-- INTRO -->
 <div class="n_about_intro">
-<div id="n_titles"><h6>Week 1<h6><h2>ReLeaf Meal Prep</h2>
-<p>We optimized this meal prep to have similar ingredients yet remaining the large variety. Check out grocery shopping list and see that you don’t need to buy a lot :)</p></div></div>
+<div id="n_titles"><h2>ReLeaf Meal Prep</h2>
+<p>We optimized this meal prep to have similar ingredients yet remaining the large variety. Each recipe describes the most important characteritics and are selected keeping in mind nutritional facts.</p></div></div>
 
 <div class="mealprep">
-    <img src="/images/about/nataliya.jpg" class="c50;">
+    {% for image in mealprep%}
+    <img src="/images/mealprep/lentilsalad.png" class="c50;">
     <div class="mealprepdeets">
-    <h4>Monday</h4>
-    <p>We optimized this meal prep to have similar ingredients yet remaining the large variety. Check out grocery shopping list and see that you don’t need to buy a lot :)</p>
-    <h5>Time:  24 min</h5>
+    <h6>Monday</h6>
+    <h1>Lentil Salad with Feta and Couscous<h1>
+    <p>This recipe contains 40% of daily protein value with only 410 calories. It is very delicios and will keep you full and active through the day. </p>
+    <h5>cooking time:  </h5>
     <h5>Ingredients:  </h5>
-    <h5>Fridge Life: 3 days</h5>
+    <h5>Calories: </h5>
     <button class="hero-button">Learn More</button>
     </div>
 
