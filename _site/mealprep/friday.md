@@ -1,5 +1,5 @@
 ---
-title: friday
+title: Friday
 layout: page 
 
 ---
