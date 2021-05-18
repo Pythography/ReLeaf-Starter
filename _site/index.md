@@ -15,7 +15,7 @@ tags:
   <div class="a_c50">
   <h1>Lifestyles Transformed</h1>
   <p>We believe that following a Plant-based diet can drastically improve your overall health, so we built a community motivating people to lead healthier lifestyles by providing guidance and access to healthy food habits.</p> 
-  <button class="hero-button" style="margin-left:70px;">Learn More</button>
+  <button class="hero-button" style="margin-left:70px;"><a href="philosophy">Learn More</button>
   </div>
  </section>
 
