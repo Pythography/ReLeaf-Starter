@@ -102,7 +102,11 @@ p {
 	width: 100%;
 }
 
-
+img,video{
+  width: auto; 
+  height: auto;
+  max-width: 100%; 
+}
 .mealprep{
   display:grid;
     grid-template-columns: 1fr 1fr;

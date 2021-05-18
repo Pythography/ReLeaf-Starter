@@ -4,26 +4,31 @@ layout: page
 
 ---
 
-<main>
 
 <!-- INTRO -->
 <div class="n_about_intro">
 <div id="n_titles"><h2>ReLeaf Meal Prep</h2>
 </div>
 </div>
-
 <div class="mealprep">
-    {% for image in mealprep%}
-    <img src="/images/mealprep/lentilsalad.png" class="c50;">
-    <div class="mealprepdeets">
-    <h6>Monday</h6>
-    <h1>Lentil Salad with Feta and Couscous<h1>
-    <p>This recipe contains 40% of daily protein value with only 410 calories. It is very delicios and will keep you full and active through the day. </p>
-    <h5>cooking time:  </h5>
-    <h5>Ingredients:  </h5>
-    <h5>Calories: </h5>
-    <button class="hero-button">Learn More</button>
-    </div>
+{% for recipe in mealprep %}
+<div class="recipeinformation">  
+<img src="{{recipe.src}}" class="c50;">
+<div class="mealprepdeets">
+<h6>{{recipe.day}}</h6>
+<h1>{{recipe.name}}<h1>
+<p>{{recipe.description}} </p>
+<h5>{{recipe.time}}</h5>
+<h5>{{recipe.ingredients}}</h5>
+<h5>{{recipe.calories}}</h5>
+<button class="hero-button"><a href="/mealprep/{{ recipe.day | slug }}">Learn More</a> </button>
+</div>
+</div>
+    {% endfor %}
+</div>
+
+<a href="#" class="btn">Read More</a>
+
 
     
 
