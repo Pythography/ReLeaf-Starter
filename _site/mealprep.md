@@ -12,11 +12,12 @@ layout: page
 </div>
 <div class="mealprep">
 {% for recipe in mealprep %}
-<div class="recipeinformation">  
+<div class="recipeinformation"> 
+
 <img src="{{recipe.src}}" class="c50;">
 <div class="mealprepdeets">
 <h6>{{recipe.day}}</h6>
-<h1>{{recipe.name}}<h1>
+<h2>{{recipe.name}}<h2>
 <p>{{recipe.description}} </p>
 <h5>{{recipe.time}}</h5>
 <h5>{{recipe.ingredients}}</h5>
@@ -25,13 +26,4 @@ layout: page
 </div>
 </div>
     {% endfor %}
-</div>
-
-<a href="#" class="btn">Read More</a>
-
-
-    
-
-
-
 </div>
