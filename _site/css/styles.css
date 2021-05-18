@@ -1090,13 +1090,14 @@ flex-wrap: wrap;
     margin-top:5%;
   }
 
-   .ingredients, .back-to, .ingredients-body{
+  .ingredients, .ingredients-body{
     margin-left: 15%;
 
   }
-  .instructions{
-    margin-left:3%
+  .Ingredients, .instructions, .back-to{
+    margin-top:10%
   }
+  
 
 
   
