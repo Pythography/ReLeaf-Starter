@@ -1091,21 +1091,20 @@ flex-wrap: wrap;
   }
 
   .ingredients, .ingredients-body{
-    margin-left: 15%;
+    margin:auto;
 
   }
   .Ingredients, .instructions, .back-to{
     margin-top:10%
   }
   
-
-
-  
  .instuctions h2, .ingredients h2, .ingredients-body h2{
    text-align: left;
  }
+ .back-to h2{
+font-size: 200%;
 
-
+ }
 
   @media(max-width:768px){
     .square{
