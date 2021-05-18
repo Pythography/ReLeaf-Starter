@@ -604,8 +604,10 @@ margin:auto;
 display: flex;
 flex-direction: column;
 flex-wrap: wrap;
-
   }
+    .card-img{
+    width:310px;
+        }
   @media (max-width:768px){
    .MSboxes{
       padding:2%; 

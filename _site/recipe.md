@@ -12,7 +12,7 @@ tags:
 </head>
 <div class="recipe-page">
 <div class="square"></div>     
- <div class="recipe-boxes"><div class="recipe-box recipe-img"> <img src="images/hpimg.png" alt="Lentil Salad"></div>
+ <div class="recipe-boxes"><div class="recipe-box recipe-img"> <img src="/images/hpimg.png" alt="Lentil Salad"></div>
 <div class="recipe-box recipe-info">
   <ul class="recipe-description">
     <li>Monday</li>
@@ -89,7 +89,7 @@ tags:
           
 <h3>Step 2:</h3>
           <p>Salad: Place the lentils in the large bowl with the dressing. Add the onions, pepper, herbs, baby arugula, feta cheese, and nuts. Add the 1/2 teaspoon kosher salt and fresh ground pepper and mix to combine. </p>
-         <img src="images/AToast.jpg" alt="Recipe 1">  
+         <img src="/images/AToast.jpg" alt="Recipe 1">  
     <h3>Step 3:</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel bibendum urna, a lacinia erat. Suspendisse sed augue a libero scelerisque venenatis sit amet sed neque. Aliquam tristique laoreet semper. Aliquam sodales, enim a ullamcorper rutrum, massa arcu aliquet purus, quis vehicula arcu mi sit amet nunc. Cras porta suscipit quam eget blandit. Donec tincidunt lorem eu mi efficitur, rhoncus maximus felis tempor. </p>
     <h3>Step 4:</h3>
@@ -99,7 +99,7 @@ tags:
 <section class="back-to">
           <h2>Want to explore more Recipes? Continue browsing</h2>
          <a href="#"> <div class="back-button">
-              <p>Back to </p><img src="images/back.png" alt="back" width="35"> 
+              <p>Back to </p><img src="/images/back.png" alt="back" width="35"> 
              <h1>Meal Preps</h1>
                   </div></a>
       </section>
