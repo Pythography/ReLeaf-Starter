@@ -1,6 +1,6 @@
 ---
 title: Wednesday recipe
-date: Created
+layout: page 
 
 ---
 <head>
