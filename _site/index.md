@@ -46,7 +46,7 @@ tags:
 <div class="e-box e-info">
     <h1 style="text-align:left; margin-bottom: 0px;">Events</h1>
 <p>Re Leaf offers monthly events that will help you improve your overall health. One of the ways Re Leaf will help you get healthier is through our events. Including cooking lessons, meditation classes, and yoga sessions, we’ll always have something planned. This month, we’ll even have a special guest that will speak at our events. </p>
-    <button class="hero-button">Sign Up</button>
+    <a href="signup"><button class="hero-button">Sign Up</button></a>
 </div>
                  <div class="e-box e-image">
 <img src="/images/events.png" alt="Event">
