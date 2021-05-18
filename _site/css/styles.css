@@ -1225,6 +1225,7 @@ text-align: center;
 margin: auto;
   }
   .back-button img{
+    width: 40px;
       position: absolute;
       margin-left:-550px;
   }
