@@ -1,36 +1,36 @@
 - src: '/images/mealprep/lentilsalad.png'
   day: Monday
-  name of the recipe: Lentil Salad with Feta and Couscous
-  description: This recipe contains 40% of daily protein value with only 410 calories. It is very delicios and will keep you full and active through the day. 
-  cooking time: 40min
+  name: Lentil Salad with Feta and Couscous
+  description: "This recipe contains 40% of daily protein value with only 410 calories. It is very delicios and will keep you full and active through the day." 
+  time: 40min
   ingredients: 10 items
   calories: 410
-- src: /images/mealprep/cauliflowersteak.png'
+- src: '/images/mealprep/cauliflowersteak.png'
   day: Tuesday
-  name of the recipe: Cauliflower Steak and Zuccini
-  description: This recipe contains 40% of daily protein value with only 410 calories. It is very delicios and will keep you full and active through the day. 
-  cooking time: 45min
+  name: Cauliflower Steak and Zuccini
+  description: "This recipe contains 40% of daily protein value with only 410 calories. It is very delicios and will keep you full and active through the day."
+  time: 45min
   ingredients: 14 items
   calories: 650
-- src: /images/mealprep/quinoasalad.png'
+- src: '/images/mealprep/quinoasalad.png'
   day: Wednesday
-  name of the recipe: Quinoa,Cucumber & Tomato Salad (Spicy)
-  description: This refreshing summer salad can sit in the refrigerator for a few hours without deteriorating, so it makes a great choice for bringing to work or to a summer picnic. 
-  cooking time: 45min
+  name: Quinoa,Cucumber & Tomato Salad (Spicy)
+  description: "This refreshing summer salad can sit in the refrigerator for a few hours without deteriorating, so it makes a great choice for bringing to work or to a summer picnic."
+  time: 45min
   ingredients: 12 items
   calories: 350
-- src: /images/mealprep/carrotrice.png'
+- src: '/images/mealprep/carrotrice.png'
   day: Thursday
-  name of the recipe: Carrot Rice
+  name: Carrot Rice
   description: Very fragrant and tasty, dressed up with almonds and golden raisins. A simple but filling meal that you can have either for luch or dinner.
-  cooking time: 35min
+  time: 35min
   ingredients: 5 items
   calories: 259
-- src: /images/mealprep/mediterraneanwrap.png'
+- src: '/images/mealprep/mediterraneanwrap.png'
   day: Friday
-  name of the recipe: Vegan Mediterranean Wraps
+  name: Vegan Mediterranean Wraps
   description: Very fragrant and tasty, dressed up with almonds and golden raisins. A simple but filling meal that you can have either for luch or dinner.
-  cooking time: 30min
+  time: 30min
   ingredients: 14 items
   calories: 480
 

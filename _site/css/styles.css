@@ -10,6 +10,13 @@ body{
 }
 
 
+
+img,video{
+  width: auto; 
+  height: auto;
+  max-width: 100%; 
+}
+
 h1 {
 
 	font-family: 'Marcellus', serif;
@@ -102,23 +109,40 @@ p {
 	width: 100%;
 }
 
-
+img,video{
+  width: auto; 
+  height: auto;
+  max-width: 100%; 
+}
 .mealprep{
   display:grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 60px;
-    padding: 60px;  
-    margin-top: -70px;
+    padding: 40px;  
+    margin-top: 10px;
     width: 90%;
 }
 
-.mealprep p{
+.mealprep p {
   text-align: left;
 }
 
 .mealprep h5{
   font-family: 'Lato', sans-serif;
 }
+.mealprepdeets h1 {
+  text-align: left;
+  margin: 10px 0px;
+}
+.mealprepdeets h6 {
+  text-align: left;
+  margin:0%;
+}
+.n_titles p{
+  text-align: center;
+}
+
+
 
 
 
@@ -128,7 +152,7 @@ p {
 /* NATALIYA ABOUT*/
 
 .n_about_intro{
-  margin: 50px auto;
+  margin-top: 70px;
   align-items: center;
   justify-content: center;
 align-items: center;
@@ -411,6 +435,46 @@ align-items: center;
 }
 
 
+/* NATALIYA SIGNUP */
+
+#n_formintro{
+  background-image: url("/images/signup/yoga.jpg");
+  background-size: 1800px 600px;
+  background-color: #cccccc;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+
+  align-content: center;
+}
+
+
+#n_formintro h1{
+  padding: 100px 0px;
+}
+
+
+.n_form{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin: auto 60px;
+  margin-bottom: 400px;
+  margin-top: 150px;
+}
+
+
+@media(max-width:768px){
+
+  .n_form{
+    margin-bottom: 300px;
+    margin-top: 50px;
+  }
+
+}
+
+
+
+
 /* NATALIYA ENDS */
 
 
@@ -484,9 +548,9 @@ align-items: center;
   .menu a:hover{
   color:#93BD89;
   }
-  .main h1{
+  /* .main h1{
   text-align: center;
-  }
+  } */
   
   /* default style for the boxes. suggestion, use border OR background-color not both (or something else if you like.) */
   .box{
@@ -553,6 +617,7 @@ width:100%;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
     grid-gap: 20px;
     padding: 20px;    
+    margin-top: 50px;
   }
   .Event-boxes img{
       width:250px;
@@ -600,16 +665,17 @@ width:50px;
      
   }
   .hero-button{  
-    background-color: #379683;
-    border-radius: 7px;
+    background-color: #0F3D3D;
+    border-radius: 4px;
     border: none;
     color: white;    
-    padding: 14px 20px;
+    padding: 15px 32px;
     text-align: center;
     text-decoration: none;
-    font-size: 16px;
-    margin: 1% 0 2% 3%;    
+    font-size: 16px;    
   }
+
+
   
   .hero-button:hover {
   background-color: #3CB371;
@@ -1184,8 +1250,9 @@ margin: auto;
 
   .a_intro{
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     max-width: 1150px;
+    padding:0 7rem;
     /* margin: 60px auto; */
     
   }
@@ -1347,6 +1414,7 @@ text-align: center;
     }
     .a_intro{
         flex-direction: column;
+        padding: 4rem 0;
 
     }
     .description-item p{
