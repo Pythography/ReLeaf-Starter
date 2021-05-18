@@ -8,18 +8,29 @@ tags:
   - info
 ---
 
-   <div class="boxes"><div class="box one">
+<section class="a_intro">
+ <div class="a_c50">
+ <img src="images/hpimg.png"  alt="Positive">
+ </div>
+  <div class="a_c50">
+  <h1>Lifestyles Transformed</h1>
+  <p>We believe that following a Plant-based diet can drastically improve your overall health, so we built a community motivating people to lead healthier lifestyles by providing guidance and access to healthy food habits.</p> 
+  <button class="hero-button" style="margin-left:70px;">Learn More</button>
+  </div>
+ </section>
+
+   <!-- <div class="boxes"><div class="box one">
 <img src="images/hpimg.png" alt="Positive"></div>
   <div class="box two">
-  <h1>Lifestyles Transformed</h1>
+  <h1 style="text-align: left; padding-top:60px;">Lifestyles Transformed</h1>
   <p>We believe that following a Plant-based diet can drastically improve your overall health, so we built a community motivating people to lead healthier lifestyles by providing guidance and access to healthy food habits. </p>
     <button class="hero-button">Learn More</button>
 </div>
-          </div>
+          </div> -->
    
 <div class="MS-container">
     <div class="MS-heading">
-    <h1>Mission Statement</h1>
+    <h1>Our Mission</h1>
     <P>At Re Leaf we are committed to helping people attain the highest degree of health. Our goal is to inspire and empower people to succeed in a safe and caring environment by supporting them as they work towards their goals.<p>
     </div>
     <div class="MSboxes">
@@ -33,7 +44,7 @@ tags:
   <div class="Event-boxes">
  
 <div class="e-box e-info">
-    <h1>Events</h1>
+    <h1 style="text-align:left; margin-bottom: 0px;">Events</h1>
 <p>Re Leaf offers monthly events that will help you improve your overall health. One of the ways Re Leaf will help you get healthier is through our events. Including cooking lessons, meditation classes, and yoga sessions, we’ll always have something planned. This month, we’ll even have a special guest that will speak at our events. </p>
     <button class="hero-button">Sign Up</button>
 </div>
@@ -94,15 +105,31 @@ tags:
   </div>
 
     
+
+
+<section class="a_intro">
+ <div class="a_c50">
+ <img src="/images/index_join.jpg"  alt="Community">
+ </div>
+  <div class="a_c50">
+  <h2 style="text-align: left; padding-left:70px;">Want to join?</h2>
+  <p>We believe that following a Plant-based diet can drastically improve your overall health, so we built a community motivating people to lead healthier lifestyles by providing guidance and access to healthy food habits.</p> 
+  <button class="hero-button" style="margin-left:70px;">Learn More</button>
+  </div>
+ </section>
+
+
+ 
+<!-- 
    <div class="boxes2">
       <div class="box2 g-image">
-<img src="https://via.placeholder.com/400" alt="placeholder">
+<img src="/images/index_join.jpg" alt="community" class="width: 400px">
 </div>
 <div class="box2 g-info">
-    <h2>Want to join?</h2>
+    <h2 style="text-align: left; padding-left:70px;">Want to join?</h2>
 <p>Want to join our team, help organizing events, or become an active member? Learn about our values and aspirations first.  </p>
     <button class="hero-button">Learn More</button>
 </div>
-          </div>
+          </div> -->
 
  
