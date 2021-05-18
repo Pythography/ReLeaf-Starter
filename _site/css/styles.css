@@ -102,23 +102,40 @@ p {
 	width: 100%;
 }
 
-
+img,video{
+  width: auto; 
+  height: auto;
+  max-width: 100%; 
+}
 .mealprep{
   display:grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 60px;
-    padding: 60px;  
-    margin-top: -70px;
+    padding: 40px;  
+    margin-top: 10px;
     width: 90%;
 }
 
-.mealprep p{
+.mealprep p {
   text-align: left;
 }
 
 .mealprep h5{
   font-family: 'Lato', sans-serif;
 }
+.mealprepdeets h1 {
+  text-align: left;
+  margin: 10px 0px;
+}
+.mealprepdeets h6 {
+  text-align: left;
+  margin:0%;
+}
+.n_titles p{
+  text-align: center;
+}
+
+
 
 
 
@@ -128,7 +145,7 @@ p {
 /* NATALIYA ABOUT*/
 
 .n_about_intro{
-  margin: 50px auto;
+  margin-top: 70px;
   align-items: center;
   justify-content: center;
 align-items: center;
@@ -484,9 +501,9 @@ align-items: center;
   .menu a:hover{
   color:#93BD89;
   }
-  .main h1{
+  /* .main h1{
   text-align: center;
-  }
+  } */
   
   /* default style for the boxes. suggestion, use border OR background-color not both (or something else if you like.) */
   .box{
