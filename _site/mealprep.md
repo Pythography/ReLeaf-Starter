@@ -9,7 +9,8 @@ layout: page
 <!-- INTRO -->
 <div class="n_about_intro">
 <div id="n_titles"><h2>ReLeaf Meal Prep</h2>
-<p>We optimized this meal prep to have similar ingredients yet remaining the large variety. Each recipe describes the most important characteritics and are selected keeping in mind nutritional facts.</p></div></div>
+</div>
+</div>
 
 <div class="mealprep">
     {% for image in mealprep%}
