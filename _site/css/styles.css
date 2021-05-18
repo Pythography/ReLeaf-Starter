@@ -383,6 +383,34 @@ align-items: center;
 }
 
 
+
+/* NATALIYA RECIPES */
+
+.recipetop{
+  display: flex;
+
+
+}
+.recipetop img{
+ padding: 60px;
+  
+}
+
+
+.recipeinfo{
+  align-items: left;
+  margin-top: 70px;
+}
+
+.recipeinfo h6{
+  text-align: left;
+}
+
+.recipeinfo h2{
+  text-align: left;
+}
+
+
 /* NATALIYA ENDS */
 
 
