@@ -1090,26 +1090,21 @@ flex-wrap: wrap;
     margin-top:5%;
   }
 
-
-   .ingredients, .ingredients-body{
-    margin-left: 15%;
+  .ingredients, .ingredients-body{
+    margin:auto;
 
   }
   .Ingredients, .instructions, .back-to{
     margin-top:10%
   }
   
-  .instructions{
-    margin-left:3%
-  }
-
-
-  
  .instuctions h2, .ingredients h2, .ingredients-body h2{
    text-align: left;
  }
+ .back-to h2{
+font-size: 200%;
 
-
+ }
 
   @media(max-width:768px){
     .square{
@@ -1126,8 +1121,8 @@ flex-wrap: wrap;
   .ingredients-body{
   color:#0F3D3D;
   font-family: Lato;   
-  width:70%;
-  /* margin: auto; */
+  width:1200px;
+  margin: auto;
   margin-top: 8%;
   }
   .nutrition{
@@ -1190,10 +1185,6 @@ font-family:Lato ;
     max-width:75%;
 
   }
-  /* li::before {content: "•"; color: rgba(15, 61, 61, 1);
-    display: inline-block; width: 1em;
-    margin-left: -1em} */
-
   .ing-list li{    
   padding: 10px; 
   padding-left: 0;
@@ -1205,8 +1196,7 @@ font-family:Lato ;
   padding: 20px;    
   height:100px;     
   background-color:#EAEDFF;
-  text-align: left; 
-  margin-bottom: 13%;   
+  text-align: center;    
   }
   .ingredients-body a{
   text-decoration: none;
@@ -1215,19 +1205,20 @@ font-family:Lato ;
   }
   .back-to h2{
  text-align: center;
- margin-left: 10%;
- width:80%;
- margin-top: 0;
   }
   .back-to p{
 text-align: center;
 margin: auto;
   }
+ 
+  .back-to{
+    margin:auto;
+  }
   .back-button img{
     width: 40px;
-    margin-left:1%;
+      position: absolute;
+      margin-left:-550px;
   }
-  
   @media (max-width:1200px){
       .ingredients-body{
         margin-left: 15px;
@@ -1243,10 +1234,12 @@ margin: auto;
       
         }
         .back-to h2{
-          text-align: center;
-          width:90%;
-          font-size: 29px;
-           }
+          font-size:150%;
+        }
+        .back-to{
+          margin: auto;
+
+        }
       }
   
 /* Split */

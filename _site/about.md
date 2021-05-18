@@ -83,7 +83,7 @@ layout: page
 
 <div id="n_iconsind"><div id="n_1234nat"><img src="/images/about/nataliya.png" style="width:100%;" alt="community"></div>
     <h4>Daniel</h4>
-    <p>lorem ipsum sit amet lorem ipsum sit ametlorem ipsum sit ametlorem ipsum sit ametlorem ipsum sit ametlorem ipsum sit amet</p>
+    <p>I'm a college student working on getting his Bachelors Degree in Communications Design, and I'm just starting my health journey. I've always wanted to try different diets but was worried how it would affect my body. </p>
 </div>
 
 
