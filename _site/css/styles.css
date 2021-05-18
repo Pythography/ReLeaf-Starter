@@ -1156,17 +1156,24 @@ font-family:Lato ;
   }
   .back-to p{
 text-align: center;
-
+margin: auto;
   }
   .back-button img{
       position: absolute;
-      margin-left:-100px;
+      margin-left:-550px;
   }
   @media (max-width:1200px){
       .ingredients-body{
+        margin-left: 15px;
       width:100%;
       }
-  }
+    }
+      @media (max-width:768px){
+        .back-button img{
+          margin-left: -200px;
+        }
+      }
+  
 /* Split */
 
   /* ANGELICA */
