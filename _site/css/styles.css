@@ -91,12 +91,17 @@ p {
 	text-align: center;
 }
 
-
-
-
-.c50 {
+/* .c50 {
 	width: 50%;
+ 
+} */
+.recipeinformation{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap:50px;
+  margin-bottom: 3%;
 }
+
 
 .c100 {
 	width: 100%;
@@ -109,7 +114,7 @@ img,video{
 }
 .mealprep{
   display:grid;
-    grid-template-columns: 1fr 1fr;
+    /* grid-template-columns: 1fr 1fr; */
     grid-gap: 60px;
     padding: 40px;  
     margin-top: 10px;
@@ -123,7 +128,8 @@ img,video{
 .mealprep h5{
   font-family: 'Lato', sans-serif;
 }
-.mealprepdeets h1 {
+
+.mealprepdeets h2 {
   text-align: left;
   margin: 10px 0px;
 }
@@ -328,6 +334,12 @@ align-items: center;
   @media(max-width:768px){
 
     .main{padding: 0px 1rem;
+    }
+    .recipeinformation{
+      display:grid;
+      grid-template-columns: 1fr;
+      grid-gap:50px;
+      margin-bottom: 3%;
     }
 
     #n_ourstory h1{
@@ -573,7 +585,15 @@ align-items: center;
     text-align: center;
     text-decoration: none;
     font-size: 16px;
-    margin: 1% 0 2% 3%;    
+    margin: 1% 0 2% 3%; 
+    margin-left: 0;   
+  }
+
+  .hero-button a{
+    color:white;
+    text-decoration: none;
+    
+
   }
   
   .hero-button:hover {
