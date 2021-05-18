@@ -9,7 +9,7 @@ layout: page
         <div class="recipe-img"> <img src="/images/mealprep/chickpeacakes.png" alt="Lentil Salad"></div>
         <div class="recipe-info">
             <h6>Saturday</h6>
-            <h2>Quinoa,Cucumber & Tomato Salad (Spicy)</h2>
+            <h2>Vegan Chickpea Cakes with Mashed Avocado</h2>
             <p>These vegan falafel-esque patties made with chickpeas and bulgur wheat have a crunchy breadcrumb and are served with mashed avocado for a rich and creamy texture. </p>
             <h5>Time:<strong>30 minutes</strong> </h5>
             <h5>Ingredients:<strong>15 items</strong></h5>
