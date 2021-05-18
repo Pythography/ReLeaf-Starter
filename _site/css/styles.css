@@ -1210,6 +1210,10 @@ font-family:Lato ;
 text-align: center;
 margin: auto;
   }
+ 
+  .back-to{
+    margin:auto;
+  }
   .back-button img{
     width: 40px;
       position: absolute;
@@ -1228,6 +1232,13 @@ margin: auto;
         .instructions img{
           max-width:95%;
       
+        }
+        .back-to h2{
+          font-size:150%;
+        }
+        .back-to{
+          margin: auto;
+
         }
       }
   
