@@ -1150,8 +1150,9 @@ text-align: center;
 
   .a_intro{
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     max-width: 1150px;
+    padding:0 7rem;
     /* margin: 60px auto; */
     
   }
@@ -1313,6 +1314,7 @@ text-align: center;
     }
     .a_intro{
         flex-direction: column;
+        padding: 4rem 0;
 
     }
     .description-item p{
