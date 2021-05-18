@@ -33,7 +33,7 @@
   time: 30min
   ingredients: 14 items
   calories: 480
-  - src: '/images/mealprep/chickpeacakes.png'
+- src: '/images/mealprep/chickpeacakes.png'
   day: Saturday
   name: Vegan Chickpea Cakes with Mashed Avocado
   description: These vegan falafel-esque patties made with chickpeas and bulgur wheat have a crunchy breadcrumb and are served with mashed avocado for a rich and creamy texture.
@@ -43,7 +43,7 @@
 - src: '/images/mealprep/tacos.png'
   day: Sunday
   name: Grilled Marinated Heart of Palm Tacos with Spicy Cabbage Slaw
-  description:Hearts of palm take on a deep nutty-sweet flavor when grilled over high heat, with a great moist, texture with a light crunch.
+  description: Hearts of palm take on a deep nutty-sweet flavor when grilled over high heat, with a great moist, texture with a light crunch.
   time: 30min
   ingredients: 13 items
   calories: 845
