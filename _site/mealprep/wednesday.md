@@ -25,26 +25,26 @@ layout: page
         <div class="n-cards calories">
             <div class="n-container">
                 <b>Calories</b>
-                <p>410</p>
+                <p>330</p>
 
   </div>
         </div>
         <div class="n-cards sodium">
             <div class="n-container">
                 <b>Sodium</b>
-                <p>40% DV</p>
+                <p>10% DV</p>
             </div>
         </div>
         <div class="n-cards fat">
             <div class="n-container">
                 <b>Fat</b>
-                <p>28% DV</p>
+                <p>8% DV</p>
             </div>
         </div>
         <div class="n-cards protein">
             <div class="n-container">
                 <b>Protein</b>
-                <p>39% DV</p>
+                <p>29% DV</p>
             </div>
         </div>
         <div class="n-cards carbs">
@@ -56,7 +56,7 @@ layout: page
         <div class="n-cards fiber">
             <div class="n-container">
                 <b>Fiber</b>
-                <p>76% DV</p>
+                <p>26% DV</p>
             </div>
         </div>
     </div>

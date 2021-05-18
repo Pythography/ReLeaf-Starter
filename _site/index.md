@@ -35,7 +35,7 @@ tags:
     </div>
     <div class="MSboxes">
     <div class="box star"><img src="/images/knowledge.svg" alt="placeholder"><p>Teaching you how nutrients and food components impact human health.</p></div>
-    <div class="box star">  <img src="/images/nutrition.svg" alt="placeholder"><p>Providing a large variety of recipes and meal prep ideas that make life easier.</p></div>
+    <div class="box star">  <img src="/images/variety.svg" alt="placeholder"><p>Providing a large variety of recipes and meal prep ideas that make life easier.</p></div>
     <div class="box star"><img src="/images/yoga.svg" alt="placeholder"><p>Offering events ranging from yoga workshops to cooking classes.</p></div>
      
    </div>
@@ -57,7 +57,7 @@ tags:
         <p>If you are looking for a balance between your life and workload we got your back!!</p>
 </div>
                  <div class="e-box e-f2">
-<img src="/images/star.svg" alt="placeholder">
+<img src="/images/yogaflow.svg" alt="placeholder">
      <h3>Nutritional Facts</h3>
         <p>Are you following a vegan diet and wondering how to get enough protein? Come join us and learn from a professional.</p>
 </div>
@@ -69,34 +69,34 @@ tags:
     <div class="row">
         <div class="card">
             <div class="card-header">
-           <img class="card-img" src="/images/Blog1.png" alt="placeholder">
+           <img class="card-img" src="/images/loveandlemons.png" alt="placeholder">
         </div>
             <div class="card-body">
             <p>Love & Lemons
                 </p>
-                <a href="#" class="btn">View Full Project</a>
+                <a href="https://www.loveandlemons.com/recipes/vegan-recipes/" target="-blank" class="btn">View Full Project</a>
         </div>
             
   </div>
     <div class="card">
      <div class="card-header">
-        <img class="card-img" src="/images/Blog1.png" alt="placeholder">
+        <img class="card-img" src="/images/minimalistic.png" target="-blank" alt="placeholder">
         </div>
             <div class="card-body">
             <p>Minimalist Baker
                 </p>
-                <a href="#" class="btn">View Full Project</a>
+                <a href="https://minimalistbaker.com/" class="btn">View Full Project</a>
         </div>
             
    </div> <!-- Div card Closing -->
     <div class="card">
        <div class="card-header">
-         <img class="card-img" src="https://via.placeholder.com/300" alt="placeholder">
+         <img class="card-img" src="/images/couplecooks.png"  alt="placeholder">
         </div>
             <div class="card-body">
-            <p>Lorem ispsum
+            <p>A couple Cooks
                 </p>
-                <a href="#" class="btn">View Full Project</a>
+                <a href="https://www.acouplecooks.com/about/" class="btn">View Full Project</a>
         </div>
             
   </div> <!-- Div card Closing -->
