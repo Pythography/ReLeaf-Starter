@@ -80,12 +80,12 @@ tags:
   </div>
     <div class="card">
      <div class="card-header">
-        <img class="card-img" src="/images/minimalistic.png" target="-blank" alt="placeholder">
+        <img class="card-img" src="/images/minimalistic.png" alt="placeholder">
         </div>
             <div class="card-body">
             <p>Minimalist Baker
                 </p>
-                <a href="https://minimalistbaker.com/" class="btn">View Full Project</a>
+                <a href="https://minimalistbaker.com/" target="-blank" class="btn">View Full Project</a>
         </div>
             
    </div> <!-- Div card Closing -->
@@ -96,7 +96,7 @@ tags:
             <div class="card-body">
             <p>A couple Cooks
                 </p>
-                <a href="https://www.acouplecooks.com/about/" class="btn">View Full Project</a>
+                <a href="https://www.acouplecooks.com/about/" target="-blank" class="btn">View Full Project</a>
         </div>
             
   </div> <!-- Div card Closing -->

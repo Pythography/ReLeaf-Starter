@@ -7,7 +7,7 @@ layout: page
 
 <!-- INTRO -->
 <div class="n_about_intro">
-<div id="n_titles"><h2>ReLeaf Meal Prep</h2>
+<div id="n_titles"><h2>Re Leaf Meal Prep</h2>
 </div>
 </div>
 <div class="mealprep">
