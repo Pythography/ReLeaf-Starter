@@ -92,7 +92,7 @@ layout: page
         <p>Slice the hearts of palm and serve with warm tortillas, salsa verde, onions, cilantro, Spicy Cabbage Slaw, avocado, and lime wedges. Serve Spicy Vegan Refried Beans on the side, if desired.</p>
   <section class="back-to">
             <h2>Want to explore more Recipes? Continue browsing</h2>
-            <a href="mealprep">
+            <a href="/mealprep/">
                 <div class="back-button">
                     <p>Back to </p><img src="/images/back.png" alt="back" width="35">
                     <h2>Meal Preps</h2>

@@ -98,7 +98,7 @@ layout: page
         <p>Place avocado in a medium bowl and mash the flesh with a fork. Season with salt and add lime juice. serve fried chickpea patties with mashed avocado, sliced onions, herbs, and lime or lemon wedges.</p>
   <section class="back-to">
             <h2>Want to explore more Recipes? Continue browsing</h2>
-            <a href="mealprep">
+            <a href="/mealprep/">
                 <div class="back-button">
                     <p>Back to </p><img src="/images/back.png" alt="back" width="35">
                     <h2>Meal Preps</h2>
